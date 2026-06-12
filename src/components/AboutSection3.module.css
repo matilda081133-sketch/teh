@@ -8,9 +8,8 @@
   width: 89.5833vw;
   flex-direction: column;
   padding: var(--padding-0) var(--padding-20) 4.2188vw var(--padding-0);
-  margin-top: 3vw;
   box-sizing: border-box;
-  gap: var(--gap-20);
+  gap: 4vw;
   text-align: left;
   font-size: var(--fs-14);
   color: var(--Grey);
