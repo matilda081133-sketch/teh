@@ -59,7 +59,7 @@ body {
 
   /* Font */
   --font-onest: 'Onest', sans-serif;
-  --font-winter-sans-trial: 'Winter Sans Trial', 'Onest', sans-serif;
+  --font-winter-sans-trial: 'Winter Sans Trial';
 
   /* FontSize */
   --fs-12: 0.6250vw;
