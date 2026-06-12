@@ -239,43 +239,41 @@
 .teamSection {
   width: 100%;
   display: flex;
+  flex-direction: column;
   background-color: var(--White);
   border-radius: var(--br-15);
-  overflow: hidden;
   max-width: 100%;
 }
-.teamLeft {
-  width: 38%;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  position: relative;
-}
-.teamPhoto {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.teamRight {
-  width: 62%;
-  display: flex;
-  flex-direction: column;
-}
 .teamRow {
-  padding: var(--padding-30);
+  padding: 40px 100px 40px 0;
   border-bottom: 1px solid var(--Grey-Dark);
   cursor: pointer;
   transition: all 0.3s ease;
   background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
 }
 .teamRow:last-child {
   border-bottom: none;
 }
 .teamRowActive {
   background-color: transparent;
-  padding: 40px var(--padding-30);
+}
+.teamPhoto {
+  width: 280px;
+  height: 320px;
+  border-radius: var(--br-15);
+  object-fit: cover;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .teamRowContent {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

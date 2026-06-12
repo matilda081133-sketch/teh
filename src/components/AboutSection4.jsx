@@ -90,39 +90,37 @@ const AboutSection4 = ({ className = "" }) => {
         <div className={styles.container}>
           <div className={styles.div6}>/ Наша команда</div>
           <div className={styles.teamSection}>
-            <div className={styles.teamLeft}>
-              <img
-                className={styles.teamPhoto}
-                loading="lazy"
-                alt=""
-                src="./image-779@2x.png"
-              />
-            </div>
-            <div className={styles.teamRight}>
-              {[
-                { name: 'АНТОН ГАДОЕВ', role: 'Ведущий специалист по продажам', desc: 'Опыт работы в сфере B2B продаж более 10 лет. Эксперт по ведению ключевых клиентов.' },
-                { name: 'ЕВГЕНИЙ КОРЖЕВНИКОВ', role: 'Старший инженер', desc: 'Применение методологий V-Model и DFX (DFM/DFA/DFT) для выявления потенциальных ошибок на ранних стадиях, что предотвращает кратные финансовые потери при серийном выпуске.' },
-                { name: 'СЕМЁН САМОЙЛОВ', role: 'Управляющий директор', desc: 'Стратегическое управление компанией, развитие новых направлений и контроль качества продукции.' },
-                { name: 'ДЕНИС КОРОВАЕВ', role: 'Старший дизайнер', desc: 'Создание интуитивно понятных интерфейсов и промышленный дизайн аппаратных комплексов.' }
-              ].map((member, idx) => {
-                const isActive = activeTeamMember === idx;
-                return (
-                  <div 
-                    key={idx} 
-                    className={`${styles.teamRow} ${isActive ? styles.teamRowActive : ''}`}
-                    onClick={() => setActiveTeamMember(idx)}
-                  >
-                    <div className={styles.teamRowContent}>
-                      <h2 className={styles.teamName}>{member.name}</h2>
-                      <div className={styles.teamRole}>{member.role}</div>
-                      {isActive && (
-                        <div className={styles.teamDesc}>{member.desc}</div>
-                      )}
-                    </div>
+            {[
+              { name: 'АНТОН ГАДОЕВ', role: 'Ведущий специалист по продажам', desc: 'Опыт работы в сфере B2B продаж более 10 лет. Эксперт по ведению ключевых клиентов.' },
+              { name: 'ЕВГЕНИЙ КОРЖЕВНИКОВ', role: 'Старший инженер', desc: 'Применение методологий V-Model и DFX (DFM/DFA/DFT) для выявления потенциальных ошибок на ранних стадиях, что предотвращает кратные финансовые потери при серийном выпуске.' },
+              { name: 'СЕМЁН САМОЙЛОВ', role: 'Управляющий директор', desc: 'Стратегическое управление компанией, развитие новых направлений и контроль качества продукции.' },
+              { name: 'ДЕНИС КОРОВАЕВ', role: 'Старший дизайнер', desc: 'Создание интуитивно понятных интерфейсов и промышленный дизайн аппаратных комплексов.' }
+            ].map((member, idx) => {
+              const isActive = activeTeamMember === idx;
+              return (
+                <div 
+                  key={idx} 
+                  className={`${styles.teamRow} ${isActive ? styles.teamRowActive : ''}`}
+                  onClick={() => setActiveTeamMember(idx)}
+                >
+                  {isActive && (
+                    <img
+                      className={styles.teamPhoto}
+                      loading="lazy"
+                      alt=""
+                      src="./image-779@2x.png"
+                    />
+                  )}
+                  <div className={styles.teamRowContent}>
+                    <h2 className={styles.teamName}>{member.name}</h2>
+                    <div className={styles.teamRole}>{member.role}</div>
+                    {isActive && (
+                      <div className={styles.teamDesc}>{member.desc}</div>
+                    )}
                   </div>
-                );
-              })}
-            </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
