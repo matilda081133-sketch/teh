@@ -259,7 +259,6 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-  border-radius: var(--br-15);
 }
 .teamRow:last-child {
   border-bottom: none;
@@ -299,11 +298,7 @@
   transition: color 0.3s ease;
 }
 .teamRowActive .teamName {
-  background:
-    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), #1e1e22;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1e1e22;
 }
 .teamRole {
   font-size: var(--fs-16);
