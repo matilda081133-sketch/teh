@@ -28,13 +28,13 @@
   flex: 1;
   height: var(--height-1);
   border-top: 1px solid var(--Grey-Dark);
-  opacity: var(--opacity-0_5);
+  opacity: 0.3;
 }
 .frameChild {
   flex: 1;
   height: var(--height-1);
   border-top: 1px solid var(--Grey-Dark);
-  opacity: var(--opacity-0_5);
+  opacity: 0.3;
 }
 .frameWrapper {
   width: 100%;
@@ -94,14 +94,14 @@
 }
 .frameInner {
   position: absolute;
-  top: -1.04vw;
+  top: 1vw;
   left: 50%;
   transform: translateX(-50%);
   height: 7.2917vw;
   width: var(--width-1);
   border-right: 1px solid var(--Grey-Dark);
   box-sizing: border-box;
-  opacity: var(--opacity-0_5);
+  opacity: 0.3;
   z-index: 1;
 }
 .group {
