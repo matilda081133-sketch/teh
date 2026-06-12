@@ -124,11 +124,6 @@ const AboutSection4 = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className={styles.frameWrapper4}>
-        <div className={styles.seeStretchWrapper}>
-          <div className={styles.seeStretch}>See Stretch</div>
-        </div>
-      </div>
     </div>
   );
 };

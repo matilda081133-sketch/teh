@@ -117,9 +117,9 @@
   max-width: 100%;
 }
 .frameContainer {
-  width: 871px;
+  width: 830px;
   flex-direction: column;
-  gap: var(--gap-60);
+  gap: 120px;
 }
 .frameDiv,
 .wrapper {

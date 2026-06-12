@@ -41,7 +41,7 @@
   gap: var(--gap-20);
 }
 .textGrid {
-  width: 871px;
+  width: 830px;
   display: flex;
   align-items: flex-start;
   gap: var(--gap-40);
@@ -59,7 +59,7 @@
   z-index: 1;
 }
 .rdParent {
-  width: 871px;
+  width: 830px;
   display: flex;
   align-items: flex-start;
   gap: var(--gap-40);
@@ -142,9 +142,11 @@
   line-height: 120%;
 }
 .frameChild {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1525px;
+  margin: 0 auto;
+  border-radius: var(--br-15);
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
 @media screen and (max-width: 925px) {
