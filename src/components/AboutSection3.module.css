@@ -9,7 +9,7 @@
   flex-direction: column;
   padding: var(--padding-0) var(--padding-20) 4.2188vw var(--padding-0);
   box-sizing: border-box;
-  gap: 4vw;
+  gap: var(--gap-40);
   text-align: left;
   font-size: var(--fs-14);
   color: var(--Grey);
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 4vw;
+  gap: var(--gap-40);
 }
 .frameItem {
   flex: 1;
@@ -57,7 +57,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  gap: 4vw;
+  gap: 6vw;
   max-width: 100%;
   position: relative;
 }
@@ -94,7 +94,7 @@
 }
 .frameInner {
   position: absolute;
-  top: 0;
+  top: -1.04vw;
   left: 50%;
   transform: translateX(-50%);
   height: 7.2917vw;
