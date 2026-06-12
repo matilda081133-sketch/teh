@@ -5,8 +5,11 @@ import FrameComponent11111111 from "../components/FrameComponent11111111";
 import FrameComponent111111111 from "../components/FrameComponent111111111";
 import Footer from "../components/Footer";
 import styles from "./Component1.module.css";
+import { useTranslation } from "react-i18next";
 
 const Component1 = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.div}>
       <div className={styles.frameParent}>
@@ -27,18 +30,12 @@ const Component1 = () => {
           <div className={styles.frameContainer}>
             <section className={styles.frameSection}>
               <div className={styles.wrapper}>
-                <b
-                  className={styles.b}
-                >{`                                                          Миссия компании - внедрение концепции «Цифрового предприятия» через создание единой экосистемы, связывающей идею устройства с его физическим воплощением и последующим сервисным сопровождением. `}</b>
+                <b className={styles.b}>{t('mission.mainText')}</b>
               </div>
-              <div className={styles.div2}>/ Наша миссия</div>
+              <div className={styles.div2}>{t('mission.title')}</div>
             </section>
             <div className={styles.container}>
-              <div className={styles.div3}>
-                Мы стремимся к повышению конкурентоспособности отечественной
-                промышленности, предоставляя доступ к передовым технологиям
-                проектирования и производства.
-              </div>
+              <div className={styles.div3}>{t('mission.subText')}</div>
             </div>
           </div>
         </section>
@@ -46,11 +43,8 @@ const Component1 = () => {
         <FrameComponent11111111 />
         <div className={styles.frameDiv}>
           <div className={styles.parent}>
-            <div className={styles.div4}>/ Партнеры</div>
-            <div className={styles.div5}>
-              Наша компания имеет крупный пул кочевых паттернов и вот только
-              некоторые из них
-            </div>
+            <div className={styles.div4}>{t('partners.title', '/ Партнеры')}</div>
+            <div className={styles.div5}>{t('partners.subText', 'Наша компания имеет крупный пул ключевых партнеров и вот только некоторые из них')}</div>
           </div>
         </div>
         <FrameComponent111111111 />
@@ -58,7 +52,7 @@ const Component1 = () => {
       </main>
       <div className={styles.inner}>
         <div className={styles.seeStretchWrapper}>
-          <div className={styles.seeStretch}>See Stretch</div>
+          <div className={styles.seeStretch}>{t('mission.seeStretch')}</div>
         </div>
       </div>
     </div>

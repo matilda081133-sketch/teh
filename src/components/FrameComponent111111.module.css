@@ -27,8 +27,8 @@
   letter-spacing: -0.02em;
   line-height: 90%;
   text-transform: uppercase;
-  font-weight: 800;
-  -webkit-text-stroke: 0.2vw currentColor;
+  font-weight: 900;
+  -webkit-text-stroke: 0.35vw currentColor;
   display: inline-block;
   z-index: 1;
 }

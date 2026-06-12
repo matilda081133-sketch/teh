@@ -53,6 +53,11 @@
   height: var(--height-20);
   object-fit: contain;
   z-index: 1;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.component28Icon:hover {
+  opacity: 0.7;
 }
 .component28Icon,
 .div,
@@ -98,6 +103,11 @@
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.h1:hover {
+  opacity: 0.7;
 }
 .frameContainer,
 .parent {
@@ -142,6 +152,11 @@
   font-size: var(--fs-32);
   color: var(--color-gainsboro-200);
   font-family: var(--font-onest);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.lineParent:hover {
+  opacity: 0.7;
 }
 .frameItem,
 .group {

@@ -21,12 +21,6 @@
   font-weight: 600;
   opacity: var(--opacity-0_5);
 }
-.component21Icon {
-  height: var(--height-20);
-  width: var(--width-20);
-  position: relative;
-  object-fit: contain;
-}
 .h3 {
   margin: 0;
   align-self: stretch;
@@ -36,6 +30,22 @@
   text-transform: uppercase;
   font-weight: 700;
   font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.h3:hover {
+  opacity: 0.7;
+}
+.component21Icon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.component21Icon:hover {
+  opacity: 0.7;
 }
 @media screen and (max-width: 48.1771vw) {
   .frameParent {

@@ -110,6 +110,16 @@
   position: relative;
   z-index: 1;
 }
+.linkContainer {
+  height: 1.1458vw;
+  width: 1.6667vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4);
+  cursor: pointer;
+}
 .frameWrapper3 {
   display: flex;
   flex-direction: column;
@@ -193,4 +203,29 @@
   .linkGroup {
     display: none;
   }
+}
+.langDropdown {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  background-color: var(--Black-lines);
+  border: 1px solid var(--color-gainsboro-200);
+  border-radius: var(--br-15);
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  min-width: 120px;
+}
+.langOption {
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-family: var(--font-onest);
+  font-size: var(--fs-14);
+  color: var(--Grey);
+}
+.langOption:hover {
+  background-color: var(--Grey);
+  color: var(--Black);
 }

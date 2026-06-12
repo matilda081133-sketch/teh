@@ -45,6 +45,7 @@
   z-index: 1;
   text-align: center;
   font-size: var(--fs-48);
+  margin-top: -4vw;
 }
 .b,
 .div2 {
@@ -66,12 +67,12 @@
 }
 .p {
   margin-block-start: 0;
-  margin-block-end: 0.5208vw;
+  margin-block-end: 0.2vw;
 }
 .blankLine,
 .p,
 .p3 {
-  line-height: 120%;
+  line-height: 85%;
 }
 .p3 {
   margin: 0;
@@ -365,6 +366,13 @@
   height: var(--height-1);
   width: 52.2917vw;
   gap: var(--gap-40);
+}
+.h3, .h32, .h33, .h34, .component21Icon {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.h3:hover, .h32:hover, .h33:hover, .h34:hover, .component21Icon:hover {
+  opacity: 0.7;
 }
 @media screen and (max-width: 95.0521vw) {
   .lineGroup {

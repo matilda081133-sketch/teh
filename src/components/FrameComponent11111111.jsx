@@ -1,29 +1,31 @@
 import FrameComponent11 from "./FrameComponent11";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent11111111.module.css";
+import { useTranslation } from "react-i18next";
 
 const FrameComponent11111111 = ({ className = "" }) => {
+  const { t } = useTranslation();
+
   return (
     <section className={[styles.frameWrapper, className].join(" ")}>
       <div className={styles.frameParent}>
         <section className={styles.parent}>
-          <div className={styles.div}>/ Наши услуги</div>
+          <div className={styles.div}>{t('services.title')}</div>
           <div className={styles.group}>
             <b className={styles.b}>
-              Наша команда готова включиться
-              <br />в проект на любом этапе: от первичного аудита до поставок
-              готовых
+              {t('services.mainText1')}
+              <br />{t('services.mainText2')}
               <br />
-              серийных изделий
+              {t('services.mainText3')}
             </b>
             <div className={styles.div2}>
               <p
                 className={styles.p}
-              >{`Мы не просто предоставляем услуги - `}</p>
+              >{t('services.subText1')}</p>
               <p
                 className={styles.p}
-              >{`мы создаем долгосрочную инфраструктуру `}</p>
-              <p className={styles.p3}>для вашего бизнеса</p>
+              >{t('services.subText2')}</p>
+              <p className={styles.p3}>{t('services.subText3')}</p>
             </div>
           </div>
         </section>
@@ -32,12 +34,12 @@ const FrameComponent11111111 = ({ className = "" }) => {
             <div className={styles.frameChild} />
             <FrameComponent11
               prop="[ 01 ]"
-              prop1="Схемотехническое проектирование"
+              prop1={t('services.s1')}
             />
             <div className={styles.frameChild} />
             <FrameComponent11
               prop="[ 02 ]"
-              prop1="Трассировка печатных плат"
+              prop1={<>{t('services.s2').split(' ')[0]}<br />{t('services.s2').split(' ').slice(1).join(' ')}</>}
               h3AlignSelf="unset"
               h3Width="260px"
               h3Display="inline-block"
@@ -45,7 +47,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
             <div className={styles.frameChild} />
             <FrameComponent11
               prop="[ 03 ]"
-              prop1="Разработка встраиваемого ПО"
+              prop1={t('services.s3')}
               h3AlignSelf="stretch"
               h3Width="unset"
               h3Display="unset"
@@ -73,7 +75,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                   />
                 </div>
                 <h3 className={styles.h3}>
-                  Промышленный дизайн и проектирование корпусов
+                  {t('services.s4')}
                 </h3>
               </div>
               <div className={styles.frameChild7} />
@@ -91,7 +93,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                     />
                   </div>
                   <h3 className={styles.h32}>
-                    Подготовка к серийному производству
+                    {t('services.s5')}
                   </h3>
                 </div>
                 <div className={styles.frameChild9} />
@@ -111,7 +113,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                 <div className={styles.frameWrapper2}>
                   <div className={styles.wrapper}>
                     <h3 className={styles.h33}>
-                      Размещение заказов в России и Китае
+                      {t('services.s6')}
                     </h3>
                   </div>
                 </div>
@@ -130,7 +132,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
             <div className={styles.frameParent6}>
               <FrameComponent11
                 prop="[ 07 ]"
-                prop1="Аудит производственных процессов"
+                prop1={t('services.s7')}
                 h3AlignSelf="unset"
                 h3Width="293px"
                 h3Display="inline-block"
@@ -138,7 +140,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
               <div className={styles.frameChild} />
               <FrameComponent11
                 prop="[ 08 ]"
-                prop1="Проектирование систем автоматизации"
+                prop1={t('services.s8')}
                 h3AlignSelf="unset"
                 h3Width="279px"
                 h3Display="inline-block"
@@ -155,7 +157,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                 </div>
                 <div className={styles.frameWrapper2}>
                   <div className={styles.wrapper}>
-                    <h3 className={styles.h34}>Внедрение</h3>
+                    <h3 className={styles.h34}>{t('services.s9')}</h3>
                   </div>
                 </div>
               </div>

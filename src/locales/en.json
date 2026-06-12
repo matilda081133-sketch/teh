@@ -1,0 +1,81 @@
+{
+  "header": {
+    "catalog": "[ Equipment Catalog ]",
+    "services": "[ Services ]",
+    "industries": "[ Industries ]",
+    "about": "[ About Us ]",
+    "brands": "[ Brands ]",
+    "contacts": "[ Contacts ]",
+    "search": "Search site (Ctrl+F)..."
+  },
+  "hero": {
+    "title1": "Technological sustainability",
+    "title2": " / efficiency / quality ",
+    "subtitle": "Effective implementation of high-tech projects begins with establishing transparent communications",
+    "production": "our production facility in Dubna"
+  },
+  "mission": {
+    "title": "/ Our mission",
+    "mainText": "                                                          Our company's mission is the implementation of the «Digital Enterprise» concept through the creation of a unified ecosystem that connects the idea of a device with its physical embodiment and subsequent service support. ",
+    "subText": "We strive to increase the competitiveness of domestic industry by providing enterprises with access to advanced electronics manufacturing technologies. Since 2018, we have successfully collaborated with both state corporations and commercial organizations across Russia. Our team consists of top experts in design and manufacturing.",
+    "button": "VIEW COMPANY PRESENTATION",
+    "seeStretch": "SEE STRETCH"
+  },
+  "catalog": {
+    "manipulators": "robotic manipulators",
+    "andMore": "and much more",
+    "printers": "3D printers",
+    "injection": "injection molding machines",
+    "milling": "milling machining centers",
+    "turning": "turning lathes",
+    "tools1": "tools and consumables",
+    "tools2": "materials",
+    "item1": "3-6 axis manipulators",
+    "item2": "universal manipulators",
+    "item3": "delta robots",
+    "item4": "assembly robots"
+  },
+  "services": {
+    "title": "/ Our services",
+    "mainText1": "Our team is ready to join",
+    "mainText2": "the project at any stage: from initial audit to the supply of finished",
+    "mainText3": "serial products",
+    "subText1": "We don't just provide services - ",
+    "subText2": "we create a long-term infrastructure ",
+    "subText3": "for your business",
+    "s1": "Circuit design",
+    "s2": "PCB routing",
+    "s3": "Embedded software development",
+    "s4": "Industrial design and enclosure engineering",
+    "s5": "Preparation for mass production",
+    "s6": "Order placement in Russia and China",
+    "s7": "Production process audit",
+    "s8": "Automation systems design",
+    "s9": "Implementation"
+  },
+  "partners": {
+    "text": "we are official distributors for more than 60 manufacturing factories"
+  },
+  "footer": {
+    "quote1": "The only happiness in life is – ",
+    "quote2": "the constant striving forward",
+    "collab1": "WANT TO COLLABORATE",
+    "collab2": "WITH US?",
+    "emailPlaceholder": "enter your e-mail",
+    "consent": "By submitting this request, I consent to the processing of personal data",
+    "policy": "You accept the terms of the personal data processing policy and user agreement every time you submit your data through any feedback form on the 4ao.ru website.",
+    "copyright": "© Copyright 2024. All rights reserved.",
+    "l1": "about us",
+    "l2": "mission",
+    "l3": "partners",
+    "l4": "careers",
+    "l5": "global presence",
+    "l6": "logistics",
+    "l7": "comprehensive implementation",
+    "l8": "manufacturing",
+    "l9": "industries",
+    "l10": "programming",
+    "l11": "enclosure development",
+    "l12": "PCB routing"
+  }
+}

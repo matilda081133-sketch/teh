@@ -3,21 +3,15 @@ import Component2 from "./Component2";
 import FrameComponent1 from "./FrameComponent1";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent1111111.module.css";
+import { useTranslation } from "react-i18next";
 
 const FrameComponent1111111 = ({ className = "" }) => {
+  const { t } = useTranslation();
   const [component2Items] = useState([
-    {
-      text: "3-6 осевые манипуляторы",
-    },
-    {
-      text: "универсальные манипуляторы",
-    },
-    {
-      text: "дельта роботы",
-    },
-    {
-      text: "роботы-сборщики",
-    },
+    { text: t('catalog.item1') },
+    { text: t('catalog.item2') },
+    { text: t('catalog.item3') },
+    { text: t('catalog.item4') },
   ]);
   return (
     <section className={[styles.frameWrapper, className].join(" ")}>
@@ -37,14 +31,14 @@ const FrameComponent1111111 = ({ className = "" }) => {
             />
             <h2 className={styles.h2}>01</h2>
             <div className={styles.div}>[ 78 ]</div>
-            <h1 className={styles.h1}>роботы манипуляторы</h1>
+            <h1 className={styles.h1}>{t('catalog.manipulators')}</h1>
             <div className={styles.frameContainer}>
               <div className={styles.parent}>
                 {component2Items.map((item, index) => (
                   <Component2 key={index} text={item.text} />
                 ))}
               </div>
-              <div className={styles.div2}>и многое другое</div>
+              <div className={styles.div2}>{t('catalog.andMore')}</div>
             </div>
           </div>
           <div className={styles.frameChild} />
@@ -55,7 +49,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <h2 className={styles.h22}>02</h2>
             <div className={styles.container}>
               <div className={styles.div3}>[ 17 ]</div>
-              <h2 className={styles.h23}>3д принтеры</h2>
+              <h2 className={styles.h23}>{t('catalog.printers')}</h2>
             </div>
             <img
               className={styles.component29Icon}
@@ -70,7 +64,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <h2 className={styles.h22}>03</h2>
             <div className={styles.parent2}>
               <div className={styles.div3}>[ 09 ]</div>
-              <h2 className={styles.h25}>термопластавтоматы</h2>
+              <h2 className={styles.h25}>{t('catalog.injection')}</h2>
             </div>
             <img
               className={styles.component29Icon}
@@ -82,7 +76,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
         <FrameComponent1
           prop="04"
           prop1="[ 14 ]"
-          prop2="фрезерные обрабатывающие центры"
+          prop2={t('catalog.milling')}
         />
         <section className={styles.lineParent}>
           <div className={styles.frameItem} />
@@ -90,7 +84,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <h2 className={styles.h22}>05</h2>
             <div className={styles.parent4}>
               <div className={styles.div3}>[ 34 ]</div>
-              <h2 className={styles.h25}>токарные станки</h2>
+              <h2 className={styles.h25}>{t('catalog.turning')}</h2>
             </div>
             <img
               className={styles.component29Icon}
@@ -102,7 +96,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
         <FrameComponent1
           prop="06"
           prop1="[ 314 ]"
-          prop2={<><span style={{ whiteSpace: "nowrap" }}>инструмент и расходные</span><br />материалы</>}
+          prop2={<><span style={{ whiteSpace: "nowrap" }}>{t('catalog.tools1')}</span><br />{t('catalog.tools2')}</>}
         />
       </div>
     </section>
