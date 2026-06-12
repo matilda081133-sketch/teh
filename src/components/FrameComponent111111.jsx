@@ -3,15 +3,21 @@ import styles from "./FrameComponent111111.module.css";
 import { useTranslation } from "react-i18next";
 
 const FrameComponent111111 = ({ className = "" }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section className={[styles.frameWrapper, className].join(" ")}>
       <div className={styles.parent}>
         <div className={styles.div}>
-          {t('hero.title1')}
-          <br />
-          {t('hero.title2')}
+          {i18n.language === 'ru' ? (
+            <img src="./hero-heading.png" alt="Технологическая устойчивость" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+          ) : (
+            <>
+              {t('hero.title1')}
+              <br />
+              {t('hero.title2')}
+            </>
+          )}
         </div>
         <section className={styles.frameContainer}>
           <div className={styles.frameParent}>
