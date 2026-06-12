@@ -170,9 +170,10 @@
   font-family: var(--font-winter-sans-trial);
 }
 .h2 {
-  margin: 0;
-  width: var(--width-175);
-  height: var(--height-92);
+  margin: -10px 0 0 0;
+  width: auto;
+  height: auto;
+  padding: 10px 15px 10px 0;
   position: relative;
   font-size: inherit;
   letter-spacing: -0.02em;
