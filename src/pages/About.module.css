@@ -186,9 +186,10 @@
   white-space: nowrap;
   width: 100vw;
   box-sizing: border-box;
-  margin-top: 2vw;
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  top: 508px;
+  left: 0;
+  z-index: 3;
 }
 .marqueeContent {
   display: inline-flex;
