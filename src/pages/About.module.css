@@ -218,4 +218,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: var(--color-black);
+  padding: var(--padding-80) var(--padding-20) var(--padding-81);
+  box-sizing: border-box;
 }
