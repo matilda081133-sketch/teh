@@ -92,7 +92,7 @@
   width: 100%;
   max-width: 1525px;
   justify-content: flex-end;
-  padding: 120px 0 60px;
+  padding: 120px 174px 60px 0;
   margin: 0 auto;
   text-align: left;
   font-size: var(--fs-48);
@@ -216,4 +216,6 @@
 .footerWrap {
   margin-top: auto;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
