@@ -208,9 +208,8 @@
   position: absolute;
   top: 100%;
   left: -20px;
-  background-color: var(--Black-lines);
-  border: 1px solid var(--color-gainsboro-200);
-  border-radius: var(--br-15);
+  background-color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 0;
   display: flex;
   flex-direction: column;
@@ -218,14 +217,15 @@
   min-width: 120px;
 }
 .langOption {
-  padding: 5px 15px;
+  padding: 10px 15px;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
   font-family: var(--font-onest);
   font-size: var(--fs-14);
   color: var(--Grey);
+  text-transform: uppercase;
 }
 .langOption:hover {
-  background-color: var(--Grey);
-  color: var(--Black);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
