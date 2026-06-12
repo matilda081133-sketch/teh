@@ -1,7 +1,9 @@
+import React, { useState } from 'react';
 import PropTypes from "prop-types";
 import styles from "./AboutSection4.module.css";
 
-const FrameComponent1111 = ({ className = "" }) => {
+const AboutSection4 = ({ className = "" }) => {
+  const [activeTeamMember, setActiveTeamMember] = useState(1);
   return (
     <div className={[styles.frameParent, className].join(" ")}>
       <div className={styles.frameGroup}>
@@ -87,45 +89,41 @@ const FrameComponent1111 = ({ className = "" }) => {
         </div>
         <div className={styles.container}>
           <div className={styles.div6}>/ Наша команда</div>
-          <div className={styles.frameDiv}>
-            <div className={styles.frameWrapper}>
-              <div className={styles.parent2}>
-                <h2 className={styles.h25}>Антон Гадоев</h2>
-                <div
-                  className={styles.div7}
-                >{`Ведущий специалист по продажам `}</div>
-              </div>
+          <div className={styles.teamSection}>
+            <div className={styles.teamLeft}>
+              <img
+                className={styles.teamPhoto}
+                loading="lazy"
+                alt=""
+                src="./image-779@2x.png"
+              />
             </div>
-            <section className={styles.frameSection}>
-              <div className={styles.parent3}>
-                <h2 className={styles.h26}>Евгений Коржевников</h2>
-                <div className={styles.div8}>Старший инженер</div>
-                <div className={styles.vModelDfx2}>
-                  Применение методологий V-Model и DFX (DFM/DFA/DFT) для
-                  выявления потенциальных ошибок на ранних стадиях, что
-                  предотвращает кратные финансовые потери при серийном выпуске.
-                </div>
-              </div>
-            </section>
-            <div className={styles.frameWrapper2}>
-              <div className={styles.parent2}>
-                <h2 className={styles.h25}>Семён Самойлов</h2>
-                <div className={styles.div7}>Управляющий директор</div>
-              </div>
-            </div>
-            <div className={styles.frameWrapper3}>
-              <div className={styles.parent2}>
-                <h2 className={styles.h25}>Денис короваев</h2>
-                <div className={styles.div7}>Старший дизайнер</div>
-              </div>
+            <div className={styles.teamRight}>
+              {[
+                { name: 'АНТОН ГАДОЕВ', role: 'Ведущий специалист по продажам', desc: 'Опыт работы в сфере B2B продаж более 10 лет. Эксперт по ведению ключевых клиентов.' },
+                { name: 'ЕВГЕНИЙ КОРЖЕВНИКОВ', role: 'Старший инженер', desc: 'Применение методологий V-Model и DFX (DFM/DFA/DFT) для выявления потенциальных ошибок на ранних стадиях, что предотвращает кратные финансовые потери при серийном выпуске.' },
+                { name: 'СЕМЁН САМОЙЛОВ', role: 'Управляющий директор', desc: 'Стратегическое управление компанией, развитие новых направлений и контроль качества продукции.' },
+                { name: 'ДЕНИС КОРОВАЕВ', role: 'Старший дизайнер', desc: 'Создание интуитивно понятных интерфейсов и промышленный дизайн аппаратных комплексов.' }
+              ].map((member, idx) => {
+                const isActive = activeTeamMember === idx;
+                return (
+                  <div 
+                    key={idx} 
+                    className={`${styles.teamRow} ${isActive ? styles.teamRowActive : ''}`}
+                    onClick={() => setActiveTeamMember(idx)}
+                  >
+                    <div className={styles.teamRowContent}>
+                      <h2 className={styles.teamName}>{member.name}</h2>
+                      <div className={styles.teamRole}>{member.role}</div>
+                      {isActive && (
+                        <div className={styles.teamDesc}>{member.desc}</div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
-          <img
-            className={styles.image779Icon}
-            loading="lazy"
-            alt=""
-            src="./image-779@2x.png"
-          />
         </div>
       </div>
       <div className={styles.frameWrapper4}>
@@ -141,4 +139,4 @@ FrameComponent1111.propTypes = {
   className: PropTypes.string,
 };
 
-export default FrameComponent1111;
+export default AboutSection4;
