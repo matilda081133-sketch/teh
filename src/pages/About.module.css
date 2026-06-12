@@ -70,7 +70,7 @@
   flex-shrink: 0;
 }
 .frameParent {
-  width: var(--width-1720);
+  width: 89.5833vw;
   flex-direction: column;
   gap: var(--gap-40);
 }
@@ -98,7 +98,7 @@
   max-width: 100%;
 }
 .frameSection {
-  width: 1377px;
+  width: 89.5833vw;
   justify-content: center;
   padding: var(--padding-0) var(--padding-20) 60px;
   text-align: left;

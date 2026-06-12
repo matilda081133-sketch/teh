@@ -74,7 +74,7 @@
   flex-shrink: 0;
 }
 .mission {
-  width: var(--width-1720);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -217,7 +217,7 @@
   letter-spacing: -0.03px;
 }
 .container {
-  width: var(--width-1720);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -234,7 +234,7 @@
   display: inline-block;
 }
 .frameDiv {
-  width: var(--width-1720);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
