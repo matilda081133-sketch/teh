@@ -189,7 +189,7 @@
   position: absolute;
   top: 508px;
   left: 0;
-  z-index: 1;
+  z-index: 0;
 }
 .marqueeContent {
   display: inline-flex;

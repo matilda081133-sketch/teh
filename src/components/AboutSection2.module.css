@@ -25,6 +25,7 @@
   padding: 34.7917vw var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   isolation: isolate;
+  z-index: 2;
 }
 .div {
   width: var(--width-328);
