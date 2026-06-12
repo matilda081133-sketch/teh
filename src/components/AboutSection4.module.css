@@ -99,16 +99,20 @@
   flex-shrink: 0;
 }
 .b {
-  width: 1718px;
-  height: 226px;
+  width: 100%;
+  height: auto;
   position: relative;
   font-size: var(--fs-48);
   letter-spacing: -0.03em;
-  line-height: 100%;
+  line-height: 120%;
   text-transform: uppercase;
-  display: inline-block;
-  white-space: pre-wrap;
+  display: block;
+  white-space: normal;
   z-index: 1;
+}
+.indent {
+  display: inline-block;
+  width: 15vw;
 }
 .wrapper {
   display: flex;
