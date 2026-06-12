@@ -66,6 +66,12 @@
   max-width: 100%;
   font-size: var(--fs-20);
 }
+.rightContent {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .rd {
   flex: 1;
   position: relative;

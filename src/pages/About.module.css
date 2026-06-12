@@ -92,7 +92,7 @@
   width: 100%;
   max-width: 1525px;
   justify-content: flex-end;
-  padding: var(--padding-0) 0 60px;
+  padding: 120px 0 60px;
   margin: 0 auto;
   text-align: left;
   font-size: var(--fs-48);
