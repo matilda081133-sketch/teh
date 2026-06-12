@@ -85,6 +85,7 @@
   gap: var(--gap-5);
   cursor: pointer;
   transition: opacity 0.2s ease;
+  z-index: 100;
 }
 .linkContainer:hover {
   opacity: 0.7;
