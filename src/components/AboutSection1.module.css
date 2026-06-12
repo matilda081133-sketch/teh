@@ -1,5 +1,5 @@
 .frameParent {
-  width: 90.625vw;
+  width: 89.5833vw;
   align-items: flex-start;
   justify-content: space-between;
   padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-0);
@@ -42,6 +42,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
+  -webkit-text-stroke: 2px currentColor;
 }
 .div {
   width: 7.8125vw;
@@ -89,6 +90,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: var(--font-winter-sans-trial);
+  -webkit-text-stroke: 2px currentColor;
 }
 @media screen and (max-width: 925px) {
   .frameParent {
