@@ -82,12 +82,12 @@
   margin: 0;
   width: 12.6563vw;
   font-size: var(--fs-128);
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   line-height: 90%;
   text-transform: uppercase;
   font-weight: 800;
   font-family: var(--font-winter-sans-trial);
-  -webkit-text-stroke: 5px currentColor;
+  -webkit-text-stroke: 8px currentColor;
   display: inline-block;
 }
 .frameInner {
@@ -121,12 +121,12 @@
   margin: 0;
   width: 8.3854vw;
   font-size: inherit;
-  letter-spacing: -0.02em;
+  letter-spacing: normal;
   line-height: 90%;
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  -webkit-text-stroke: 5px currentColor;
+  -webkit-text-stroke: 8px currentColor;
 }
 .div2 {
   width: 5.5729vw;
