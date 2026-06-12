@@ -5,9 +5,9 @@
   max-width: 100%;
 }
 .frameParent {
-  width: 1739px;
+  width: 90.5729vw;
   flex-direction: column;
-  padding: var(--padding-0) var(--padding-20) 81px var(--padding-0);
+  padding: var(--padding-0) var(--padding-20) 4.2188vw var(--padding-0);
   box-sizing: border-box;
   gap: var(--gap-20);
   text-align: left;
@@ -28,14 +28,14 @@
   border-top: var(--border-1);
   box-sizing: border-box;
   opacity: var(--opacity-0_5);
-  max-width: calc(100% - 880px);
+  max-width: calc(100% - 45.8333vw);
   z-index: 1;
 }
 .frameItem {
-  max-width: calc(100% - 881px);
+  max-width: calc(100% - 45.8854vw);
 }
 .frameWrapper {
-  width: 1637px;
+  width: 85.2604vw;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -56,7 +56,7 @@
   gap: var(--gap-24);
 }
 .div {
-  width: 108px;
+  width: 5.6250vw;
   line-height: 120%;
   display: inline-block;
   flex-shrink: 0;
@@ -68,7 +68,7 @@
 }
 .h2 {
   margin: 0;
-  width: 243px;
+  width: 12.6563vw;
   font-size: var(--fs-128);
   letter-spacing: -0.02em;
   line-height: 90%;
@@ -78,7 +78,7 @@
   display: inline-block;
 }
 .frameInner {
-  height: 141px;
+  height: 7.3438vw;
   width: var(--width-1);
   border-right: 1px solid var(--Grey-Dark);
   box-sizing: border-box;
@@ -100,7 +100,7 @@
 }
 .h22 {
   margin: 0;
-  width: 161px;
+  width: 8.3854vw;
   font-size: inherit;
   letter-spacing: -0.02em;
   line-height: 90%;
@@ -109,7 +109,7 @@
   font-family: inherit;
 }
 .div2 {
-  width: 107px;
+  width: 5.5729vw;
   font-size: var(--fs-14);
   line-height: 120%;
   font-family: var(--font-onest);
