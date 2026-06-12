@@ -117,7 +117,7 @@ const FrameComponent1111 = ({ className = "" }) => {
             className={styles.image779Icon}
             loading="lazy"
             alt=""
-            src="/image-779@2x.png"
+            src="./image-779@2x.png"
           />
         </div>
       </div>

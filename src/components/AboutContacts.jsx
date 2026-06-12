@@ -59,7 +59,7 @@ const FrameComponent11111 = ({ className = "" }) => {
           className={styles.frameChild}
           loading="lazy"
           alt=""
-          src="/Group-343@2x.png"
+          src="./Group-343@2x.png"
         />
       </div>
     </div>
