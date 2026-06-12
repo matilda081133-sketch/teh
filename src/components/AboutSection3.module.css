@@ -73,15 +73,15 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: var(--font-winter-sans-trial);
-  -webkit-text-stroke: 6px currentColor;
+  -webkit-text-stroke: 12px currentColor;
   display: inline-block;
 }
 .frameInner {
   position: absolute;
-  top: -4.2188vw;
+  top: -1.0417vw;
   left: 50%;
   transform: translateX(-50%);
-  height: 4vw;
+  height: 1.0417vw;
   width: var(--width-1);
   border-right: 1px solid var(--Grey-Dark);
   box-sizing: border-box;
@@ -110,7 +110,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  -webkit-text-stroke: 6px currentColor;
+  -webkit-text-stroke: 12px currentColor;
 }
 .div2 {
   width: 5.5729vw;

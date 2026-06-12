@@ -15,6 +15,7 @@ const About = () => {
   return (
     <div className={styles.div}>
       <img className={styles.child} alt="" src="./Group-146.svg" />
+      <img className={styles.groupIcon} alt="" src="./Group.svg" />
       
       <div className={styles.marqueeContainer}>
         {i18n.language === 'ru' ? (
