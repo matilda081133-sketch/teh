@@ -186,7 +186,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  background: linear-gradient(180deg, var(--Grey-Dark) 0%, var(--Black-lines) 65%);
+  background: linear-gradient(180deg, var(--Grey-Dark) 0%, var(--Black-lines) 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 8px transparent;
