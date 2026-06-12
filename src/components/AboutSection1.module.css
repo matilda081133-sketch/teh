@@ -27,7 +27,7 @@
 .parent {
   width: 17.1875vw;
   align-items: flex-end;
-  gap: var(--gap-24);
+  gap: var(--gap-40);
 }
 .div,
 .h2 {
@@ -67,7 +67,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  gap: var(--gap-24);
+  gap: var(--gap-40);
   max-width: 100%;
   z-index: 2;
   font-size: var(--fs-14);

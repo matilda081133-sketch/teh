@@ -65,7 +65,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  gap: var(--gap-24);
+  gap: var(--gap-40);
 }
 .div {
   width: 5.6250vw;
@@ -108,7 +108,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: var(--gap-24);
+  gap: var(--gap-40);
   font-size: var(--fs-128);
   font-family: var(--font-winter-sans-trial);
 }
