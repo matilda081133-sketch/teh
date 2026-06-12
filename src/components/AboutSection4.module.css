@@ -117,7 +117,8 @@
 .wrapper {
   display: flex;
   align-items: flex-start;
-  padding: var(--padding-0) 0 var(--padding-0) 31vw;
+  padding: var(--padding-0) 0 var(--padding-0) 46vw;
+  width: 100%;
 }
 .div3 {
   height: 85px;
