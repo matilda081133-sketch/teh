@@ -39,7 +39,7 @@
   margin: 0;
   width: 17.1354vw;
   font-size: inherit;
-  letter-spacing: normal;
+  letter-spacing: 0.05em;
   line-height: 90%;
   text-transform: uppercase;
   font-weight: 800;
@@ -87,7 +87,7 @@
   margin: 0;
   width: 15.1563vw;
   font-size: var(--fs-128);
-  letter-spacing: normal;
+  letter-spacing: 0.05em;
   line-height: 90%;
   text-transform: uppercase;
   font-weight: 800;
