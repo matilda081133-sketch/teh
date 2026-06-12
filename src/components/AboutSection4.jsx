@@ -135,7 +135,7 @@ const AboutSection4 = ({ className = "" }) => {
   );
 };
 
-FrameComponent1111.propTypes = {
+AboutSection4.propTypes = {
   className: PropTypes.string,
 };
 
