@@ -206,7 +206,7 @@
   animation: marquee 60s linear infinite;
 }
 .marqueeImage {
-  height: 12vw;
+  height: 6.6667vw;
   width: auto;
   max-width: none;
   flex-shrink: 0;
