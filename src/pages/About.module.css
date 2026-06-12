@@ -98,9 +98,11 @@
   max-width: 100%;
 }
 .frameSection {
-  width: 89.5833vw;
-  justify-content: center;
-  padding: var(--padding-0) var(--padding-20) 60px;
+  width: 100%;
+  max-width: 1525px;
+  justify-content: flex-end;
+  padding: var(--padding-0) 0 60px;
+  margin: 0 auto;
   text-align: left;
   font-size: var(--fs-48);
   color: var(--Grey);
