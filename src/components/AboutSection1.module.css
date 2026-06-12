@@ -1,8 +1,9 @@
 .frameParent {
-  width: 1740px;
+  width: 90.625vw;
   align-items: flex-start;
   justify-content: space-between;
   padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-0);
+  margin-top: 5.208vw; /* pushes the section lower */
   box-sizing: border-box;
   gap: var(--gap-20);
   text-align: left;
