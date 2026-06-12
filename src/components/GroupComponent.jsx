@@ -127,12 +127,12 @@ const GroupComponent = ({ className = "" }) => {
       <div className={styles.frameParent}>
         <section className={styles.frameGroup}>
           <div className={styles.logoParent}>
-            <img className={styles.logoIcon} alt="" src="/Logo1.svg" />
+            <img className={styles.logoIcon} alt="" src="./Logo1.svg" />
             <img
               className={styles.frameChild}
               loading="lazy"
               alt=""
-              src="/Rectangle-1387.svg"
+              src="./Rectangle-1387.svg"
             />
             <div className={styles.wrapper}>
               <div className={styles.div}>
@@ -141,7 +141,7 @@ const GroupComponent = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <img className={styles.groupIcon} alt="" src="/Group1.svg" />
+          <img className={styles.groupIcon} alt="" src="./Group1.svg" />
         </section>
         <section className={styles.frameContainer}>
           <div className={styles.frameDiv}>
@@ -219,7 +219,7 @@ const GroupComponent = ({ className = "" }) => {
                   <img
                     className={styles.component5Icon}
                     alt=""
-                    src="/Component-5@2x.png"
+                    src="./Component-5@2x.png"
                   />
                   <input
                     className={styles.eMail}

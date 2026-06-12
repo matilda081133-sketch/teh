@@ -71,7 +71,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                   <img
                     className={styles.component21Icon}
                     alt=""
-                    src="/Component-32@2x.png"
+                    src="./Component-32@2x.png"
                   />
                 </div>
                 <h3 className={styles.h3}>
@@ -89,7 +89,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                     <img
                       className={styles.component21Icon}
                       alt=""
-                      src="/Component-32@2x.png"
+                      src="./Component-32@2x.png"
                     />
                   </div>
                   <h3 className={styles.h32}>
@@ -107,7 +107,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                   <img
                     className={styles.component21Icon}
                     alt=""
-                    src="/Component-32@2x.png"
+                    src="./Component-32@2x.png"
                   />
                 </div>
                 <div className={styles.frameWrapper2}>
@@ -152,7 +152,7 @@ const FrameComponent11111111 = ({ className = "" }) => {
                   <img
                     className={styles.component21Icon}
                     alt=""
-                    src="/Component-32@2x.png"
+                    src="./Component-32@2x.png"
                   />
                 </div>
                 <div className={styles.frameWrapper2}>

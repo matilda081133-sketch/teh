@@ -31,7 +31,7 @@ const FrameComponent11111 = ({ className = "" }) => {
       <header className={styles.frameParent}>
         <div className={styles.frameGroup}>
           <div className={styles.logoWrapper}>
-            <img className={styles.logoIcon} loading="lazy" alt="" src="/Logo.svg" />
+            <img className={styles.logoIcon} loading="lazy" alt="" src="./Logo.svg" />
           </div>
           <div className={styles.frameContainer}>
             <div className={styles.linkParent}>
@@ -53,7 +53,7 @@ const FrameComponent11111 = ({ className = "" }) => {
                     <div className={styles.div}>{i18n.language === 'ru' ? 'Ру' : 'En'}</div>
                   </div>
                   <div className={styles.instanceWrapper}>
-                    <img className={styles.frameChild} loading="lazy" alt="" src="/Vector-56.svg" style={{ transform: isLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
+                    <img className={styles.frameChild} loading="lazy" alt="" src="./Vector-56.svg" style={{ transform: isLangOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }} />
                   </div>
                   {isLangOpen && (
                     <div className={styles.langDropdown}>
@@ -67,7 +67,7 @@ const FrameComponent11111 = ({ className = "" }) => {
                     className={styles.frameItem}
                     loading="lazy"
                     alt="Поиск"
-                    src="/Group-145.svg"
+                    src="./Group-145.svg"
                     onClick={() => setIsSearchOpen(!isSearchOpen)}
                   />
                   {isSearchOpen && (

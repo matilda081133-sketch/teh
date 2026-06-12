@@ -13,14 +13,14 @@ const Component1 = () => {
   return (
     <div className={styles.div}>
       <div className={styles.frameParent}>
-        <img className={styles.frameChild} alt="" src="/Group-146.svg" />
+        <img className={styles.frameChild} alt="" src="./Group-146.svg" />
         <div className={styles.frameItem} />
-        <img className={styles.icon} alt="" src="/1-1@2x.png" />
+        <img className={styles.icon} alt="" src="./1-1@2x.png" />
         <img
           className={styles.groupIcon}
           loading="lazy"
           alt=""
-          src="/Group.svg"
+          src="./Group.svg"
         />
       </div>
       <main className={styles.frameGroup}>

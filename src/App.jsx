@@ -44,9 +44,14 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Component1 />} />
-    </Routes>
+    <div>
+      <div style={{ position: 'fixed', top: 0, left: 0, zIndex: 9999, color: 'lime', background: 'black', padding: '10px' }}>
+        REACT IS ALIVE! Pathname: {pathname}, BaseUrl: {import.meta.env.BASE_URL}
+      </div>
+      <Routes>
+        <Route path="/" element={<Component1 />} />
+      </Routes>
+    </div>
   );
 }
 export default App;

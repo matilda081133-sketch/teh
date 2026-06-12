@@ -24,7 +24,7 @@ const FrameComponent1 = ({ className = "", prop, prop1, prop2, h1Width }) => {
           <img
             className={styles.component31Icon}
             alt=""
-            src="/Component-32@2x.png"
+            src="./Component-32@2x.png"
           />
         </div>
       </div>

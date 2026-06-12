@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import styles from "./FrameComponent111111111.module.css";
 
 const partners = [
-  { type: 'partner', img: '/Group-350.svg', imgClass: styles.partnerChild },
-  { type: 'partner2', img: '/Group-349.svg', imgClass: styles.partnerItem },
-  { type: 'partner3', img: '/Group2.svg', imgClass: styles.groupIcon },
-  { type: 'partner2', img: '/Group-352.svg', imgClass: styles.partnerInner },
-  { type: 'partner3', img: '/Group-240.svg', imgClass: styles.partnerChild2 },
-  { type: 'partner2', img: '/Group-351.svg', imgClass: styles.partnerInner },
-  { type: 'partner3', img: '/Group3.svg', imgClass: styles.groupIcon2 },
+  { type: 'partner', img: './Group-350.svg', imgClass: styles.partnerChild },
+  { type: 'partner2', img: './Group-349.svg', imgClass: styles.partnerItem },
+  { type: 'partner3', img: './Group2.svg', imgClass: styles.groupIcon },
+  { type: 'partner2', img: './Group-352.svg', imgClass: styles.partnerInner },
+  { type: 'partner3', img: './Group-240.svg', imgClass: styles.partnerChild2 },
+  { type: 'partner2', img: './Group-351.svg', imgClass: styles.partnerInner },
+  { type: 'partner3', img: './Group3.svg', imgClass: styles.groupIcon2 },
 ];
 
 const FrameComponent111111111 = ({ className = "" }) => {

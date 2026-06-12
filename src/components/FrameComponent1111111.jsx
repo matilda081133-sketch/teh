@@ -22,12 +22,12 @@ const FrameComponent1111111 = ({ className = "" }) => {
               className={styles.width388Height800Llts105ucIcon}
               loading="lazy"
               alt=""
-              src="/width-388-height-800-llts105ucil4ierkr0vk39yy82qepk87-2@2x.png"
+              src="./width-388-height-800-llts105ucil4ierkr0vk39yy82qepk87-2@2x.png"
             />
             <img
               className={styles.component28Icon}
               alt=""
-              src="/Component-32@2x.png"
+              src="./Component-32@2x.png"
             />
             <h2 className={styles.h2}>01</h2>
             <div className={styles.div}>[ 78 ]</div>
@@ -54,7 +54,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <img
               className={styles.component29Icon}
               alt=""
-              src="/Component-32@2x.png"
+              src="./Component-32@2x.png"
             />
           </div>
         </section>
@@ -69,7 +69,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <img
               className={styles.component29Icon}
               alt=""
-              src="/Component-32@2x.png"
+              src="./Component-32@2x.png"
             />
           </div>
         </section>
@@ -89,7 +89,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
             <img
               className={styles.component29Icon}
               alt=""
-              src="/Component-32@2x.png"
+              src="./Component-32@2x.png"
             />
           </div>
         </section>

@@ -17,7 +17,7 @@ const FrameComponent111111 = ({ className = "" }) => {
           <div className={styles.frameParent}>
             <div className={styles.rectangleParent}>
               <div className={styles.frameChild} />
-              <img className={styles.sida09Icon} alt="" src="/SIDA-09@2x.png" />
+              <img className={styles.sida09Icon} alt="" src="./SIDA-09@2x.png" />
             </div>
             <div className={styles.frameItem} />
             <div className={styles.group}>
@@ -28,7 +28,7 @@ const FrameComponent111111 = ({ className = "" }) => {
                 className={styles.frameInner}
                 loading="lazy"
                 alt=""
-                src="/Group-248.svg"
+                src="./Group-248.svg"
               />
             </div>
           </div>
