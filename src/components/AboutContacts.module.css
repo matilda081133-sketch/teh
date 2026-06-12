@@ -40,13 +40,26 @@
   justify-content: space-between;
   gap: var(--gap-20);
 }
+.textGrid {
+  width: 871px;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .div {
   position: relative;
   line-height: 120%;
   z-index: 1;
 }
 .rdParent {
-  width: 656px;
+  width: 871px;
   display: flex;
   align-items: flex-start;
   gap: var(--gap-40);

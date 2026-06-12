@@ -2,11 +2,11 @@
   cursor: pointer;
   border: 0;
   padding: 0 40px;
-  background-color: #ffffff;
+  background-color: var(--Grey);
   width: auto;
   min-width: 300px;
   height: 60px;
-  border-radius: 30px;
+  border-radius: var(--br-15);
   display: flex;
   align-items: center;
   justify-content: center;
