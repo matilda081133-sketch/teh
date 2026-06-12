@@ -58,8 +58,8 @@ body {
   --br-15: 0.7813vw;
 
   /* Font */
-  --font-onest: Onest;
-  --font-winter-sans-trial: Winter Sans Trial;
+  --font-onest: 'Onest', sans-serif;
+  --font-winter-sans-trial: 'Winter Sans Trial', 'Onest', sans-serif;
 
   /* FontSize */
   --fs-12: 0.6250vw;
