@@ -77,6 +77,9 @@ body {
   --fs-51: 2.6563vw;
   --fs-128: 6.6667vw;
 
+  /* Gradients */
+  --gradient-1: linear-gradient(180deg, var(--Grey-Dark), var(--Black-lines));
+
   /* Borders */
   --border-1: 1px solid var(--Grey-Dark);
   --border-2: 1px solid var(--Grey);

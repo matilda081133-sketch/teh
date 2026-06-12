@@ -16,14 +16,12 @@ const FrameComponent11 = ({ className = "" }) => {
           <img className={styles.vectorIcon4} alt="" src="./Vector3.svg" />
           <img className={styles.vectorIcon5} alt="" src="./Vector4.svg" />
           <img className={styles.icon} alt="" src="./1-1@2x.png" />
-          <div className={styles.wrapperGroup271}>
-            <img
-              className={styles.wrapperGroup271Child}
-              loading="lazy"
-              alt=""
-              src="./Group-271.svg"
-            />
-          </div>
+          <img
+            className={styles.frameChild}
+            loading="lazy"
+            alt=""
+            src="./Group-271.svg"
+          />
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 668px var(--padding-0) var(--padding-0);
+  padding: 34.7917vw var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   isolation: isolate;
 }
@@ -49,56 +49,56 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 720.8px;
-  height: 143.7px;
+  width: 37.5417vw;
+  height: 7.4844vw;
   z-index: 1;
 }
 .vectorIcon2 {
-  top: 287.9px;
-  left: 577.9px;
-  width: 359.3px;
+  top: 14.9948vw;
+  left: 30.0990vw;
+  width: 18.7135vw;
 }
 .vectorIcon3,
 .vectorIcon4,
 .vectorIcon5 {
   position: absolute;
   top: 0;
-  left: 793.1px;
-  width: 462.1px;
-  height: 257.9px;
+  left: 41.3073vw;
+  width: 24.0677vw;
+  height: 13.4323vw;
   z-index: 1;
 }
 .vectorIcon4,
 .vectorIcon5 {
-  top: 461.1px;
-  left: 1255.2px;
-  width: 462.6px;
-  height: 257.4px;
+  top: 24.0156vw;
+  left: 65.3750vw;
+  width: 24.0938vw;
+  height: 13.4063vw;
 }
 .vectorIcon5 {
   height: 100%;
   top: 0;
   bottom: 0;
-  left: 289.6px;
+  left: 15.0833vw;
   max-height: 100%;
-  width: 1428.2px;
+  width: 74.3854vw;
   z-index: 2;
 }
 .icon {
   position: absolute;
-  top: 36px;
-  left: 568px;
-  width: 581px;
-  height: 683px;
+  top: 1.8750vw;
+  left: 29.5833vw;
+  width: 30.2604vw;
+  height: 35.5729vw;
   object-fit: cover;
   z-index: 4;
 }
 .frameChild {
   position: absolute;
-  top: 596px;
+  top: 31.0417vw;
   left: 0;
-  width: 153px;
-  height: 52px;
+  width: 7.9688vw;
+  height: 2.7083vw;
   z-index: 1;
 }
 @media screen and (max-width: 925px) {
