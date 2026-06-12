@@ -7,7 +7,10 @@ const FrameComponent1 = ({ className = "" }) => {
       <div className={styles.frameWrapper}>
         <div className={styles.parent}>
           <h2 className={styles.h2}>2005</h2>
-          <div className={styles.div}>Основание компании АО “ТЕХ”</div>
+          <div className={styles.div}>
+            Основание компании<br />
+            АО “ТЕХ”
+          </div>
         </div>
       </div>
       <div className={styles.frameChild} />
