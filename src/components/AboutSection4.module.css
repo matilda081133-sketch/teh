@@ -160,7 +160,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: var(--padding-30);
+  padding: 30px;
   box-sizing: border-box;
   min-width: var(--min-w-311);
   max-width: var(--max-w-415);
@@ -180,8 +180,10 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  color: var(--Grey);
-  -webkit-text-stroke: 8px var(--Grey);
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 8px transparent;
   display: inline-block;
   opacity: var(--opacity-0_3);
 }
@@ -190,7 +192,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 6px;
   font-size: var(--fs-24);
   font-family: var(--font-onest);
 }
