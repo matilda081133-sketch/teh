@@ -23,7 +23,7 @@
   justify-content: space-between;
 }
 .frameItem {
-  width: 43.75vw;
+  width: 44.7917vw;
   height: var(--height-1);
   border-top: 1px dashed var(--color-gainsboro-200);
   opacity: var(--opacity-0_5);
@@ -35,7 +35,7 @@
   opacity: var(--opacity-0_5);
 }
 .frameWrapper {
-  width: 85.2604vw;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -51,10 +51,19 @@
   max-width: 100%;
 }
 .frameGroup {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-20);
+  max-width: 100%;
   position: relative;
 }
 .parent {
+  flex: 1;
   height: var(--height-92);
+  display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
   gap: var(--gap-24);
 }
@@ -94,9 +103,11 @@
   z-index: 1;
 }
 .group {
+  flex: 1;
   height: var(--height-92);
   display: flex;
   align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-24);
   font-size: var(--fs-128);
   font-family: var(--font-winter-sans-trial);
