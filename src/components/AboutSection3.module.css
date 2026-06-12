@@ -18,16 +18,21 @@
 .lineParent {
   align-self: stretch;
   height: var(--height-1);
-  gap: var(--gap-40);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.frameItem {
+  width: 43.75vw;
+  height: var(--height-1);
+  border-top: 1px dashed var(--color-gainsboro-200);
+  opacity: var(--opacity-0_5);
 }
 .frameChild {
-  width: 100%;
+  width: 43.75vw;
   height: var(--height-1);
-  position: relative;
-  border-top: var(--border-1);
-  box-sizing: border-box;
+  border-top: 2px solid var(--Grey-Dark);
   opacity: var(--opacity-0_5);
-  z-index: 1;
 }
 .frameWrapper {
   width: 85.2604vw;
@@ -78,10 +83,10 @@
 }
 .frameInner {
   position: absolute;
-  top: -1.0417vw;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: 1.0417vw;
+  height: 7.2917vw;
   width: var(--width-1);
   border-right: 1px solid var(--Grey-Dark);
   box-sizing: border-box;
