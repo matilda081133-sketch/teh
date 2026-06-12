@@ -8,7 +8,7 @@ const GroupComponent = ({ className = "" }) => {
   const { t } = useTranslation();
   const [isConsentChecked, setIsConsentChecked] = useState(false);
 
-  const [linkItems] = useState([
+  const linkItems = [
     {
       status1: "Default",
       linkAlignSelf: "stretch",
@@ -45,8 +45,8 @@ const GroupComponent = ({ className = "" }) => {
       linkJustifyContent: "",
       link: t('catalog.tools1') + " " + t('catalog.tools2'),
     },
-  ]);
-  const [linkItems1] = useState([
+  ];
+  const linkItems1 = [
     {
       status1: "Default",
       linkAlignSelf: "stretch",
@@ -83,8 +83,8 @@ const GroupComponent = ({ className = "" }) => {
       linkJustifyContent: "",
       link: t('footer.l9'),
     },
-  ]);
-  const [linkItems2] = useState([
+  ];
+  const linkItems2 = [
     {
       status1: "Default",
       linkAlignSelf: "stretch",
@@ -121,7 +121,7 @@ const GroupComponent = ({ className = "" }) => {
       linkJustifyContent: "",
       link: t('footer.l6'),
     },
-  ]);
+  ];
   return (
     <div className={[styles.footerInner, className].join(" ")}>
       <div className={styles.frameParent}>

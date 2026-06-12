@@ -7,12 +7,12 @@ import { useTranslation } from "react-i18next";
 
 const FrameComponent1111111 = ({ className = "" }) => {
   const { t } = useTranslation();
-  const [component2Items] = useState([
+  const component2Items = [
     { text: t('catalog.item1') },
     { text: t('catalog.item2') },
     { text: t('catalog.item3') },
     { text: t('catalog.item4') },
-  ]);
+  ];
   return (
     <section className={[styles.frameWrapper, className].join(" ")}>
       <div className={styles.frameParent}>
