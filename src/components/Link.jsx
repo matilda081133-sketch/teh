@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
+import { Link as RouterLink } from "react-router-dom";
 import styles from "./Link.module.css";
 
 const Link = ({
@@ -8,6 +9,7 @@ const Link = ({
   linkAlignSelf,
   linkJustifyContent,
   link,
+  to,
 }) => {
   const linkStyle = useMemo(() => {
     return {
@@ -16,7 +18,7 @@ const Link = ({
     };
   }, [linkAlignSelf, linkJustifyContent]);
 
-  return (
+  const content = (
     <div
       className={[styles.link, className].join(" ")}
       data-status={status1}
@@ -24,6 +26,14 @@ const Link = ({
     >
       <div className={styles.link2}>{link}</div>
     </div>
+  );
+
+  return to ? (
+    <RouterLink to={to} style={{ textDecoration: 'none', color: 'inherit' }}>
+      {content}
+    </RouterLink>
+  ) : (
+    content
   );
 };
 

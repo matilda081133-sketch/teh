@@ -1,0 +1,215 @@
+.div {
+  width: 100%;
+  position: relative;
+  background:
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), #1e1e22;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: var(--gap-100);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--fs-128);
+  color: var(--Grey);
+  font-family: var(--font-winter-sans-trial);
+}
+.child,
+.h1 {
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+}
+.child {
+  width: 1719px;
+  height: 9030px;
+  bottom: -2704px;
+  left: 100px;
+}
+.h1 {
+  width: 7752px;
+  height: var(--height-92);
+  top: 508px;
+  right: -5808px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: nowrap;
+  display: inline-block;
+  z-index: 3;
+}
+.frameParent,
+.inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameParent {
+  width: var(--width-1720);
+  flex-direction: column;
+  gap: var(--gap-40);
+}
+.frameChild {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  border-top: 1px solid var(--Grey);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_3);
+  z-index: 1;
+}
+.frameGroup,
+.frameSection {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameGroup {
+  width: 1840px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 43px var(--padding-20);
+  gap: 19px;
+  max-width: 100%;
+}
+.frameSection {
+  width: 1377px;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) 60px;
+  text-align: left;
+  font-size: var(--fs-48);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameContainer,
+.frameDiv,
+.frameSection,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 871px;
+  flex-direction: column;
+  gap: var(--gap-60);
+}
+.frameDiv,
+.wrapper {
+  align-self: stretch;
+}
+.frameDiv {
+  flex-direction: column;
+  gap: 6px;
+}
+.wrapper {
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-1);
+  box-sizing: border-box;
+}
+.b,
+.div2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.b {
+  flex: 1;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.div2 {
+  width: 370px;
+  font-size: var(--fs-14);
+  line-height: 120%;
+}
+@media screen and (max-width: 1400px) {
+  .div {
+    gap: var(--gap-50);
+  }
+  .frameGroup {
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .div {
+    gap: var(--gap-25);
+  }
+  .h1 {
+    font-size: var(--fs-51);
+    line-height: var(--lh-69);
+  }
+  .frameParent {
+    gap: var(--gap-20);
+  }
+  .frameSection {
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    gap: var(--gap-30);
+  }
+  .b {
+    font-size: 38px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: var(--fs-32);
+    line-height: var(--lh-46);
+  }
+  .b {
+    font-size: 29px;
+    line-height: 29px;
+  }
+}
+.marqueeContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  box-sizing: border-box;
+  margin-top: 2vw;
+  position: relative;
+  z-index: 2;
+}
+.marqueeContent {
+  display: inline-flex;
+  animation: marquee 20s linear infinite;
+}
+.marqueeImage {
+  height: auto;
+  max-width: none;
+  width: 150vw;
+  flex-shrink: 0;
+}
+.marqueeText {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.footerWrap {
+  margin-top: auto;
+  width: 100%;
+}

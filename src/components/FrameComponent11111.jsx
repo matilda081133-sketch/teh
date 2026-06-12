@@ -3,6 +3,7 @@ import Link from "./Link";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent11111.module.css";
 import { useTranslation } from "react-i18next";
+import { Link as RouterLink } from "react-router-dom";
 
 const FrameComponent11111 = ({ className = "" }) => {
   const { t, i18n } = useTranslation();
@@ -10,15 +11,15 @@ const FrameComponent11111 = ({ className = "" }) => {
   const [isLangOpen, setIsLangOpen] = useState(false);
 
   const linkItems = [
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.catalog') },
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.services') },
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.industries') },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.catalog'), to: "/" },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.services'), to: "/" },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.industries'), to: "/" },
   ];
   
   const linkItems1 = [
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.about') },
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.brands') },
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.contacts') },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.about'), to: "/about" },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.brands'), to: "/" },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.contacts'), to: "/" },
   ];
 
   const handleLangChange = (lang) => {
@@ -31,17 +32,19 @@ const FrameComponent11111 = ({ className = "" }) => {
       <header className={styles.frameParent}>
         <div className={styles.frameGroup}>
           <div className={styles.logoWrapper}>
-            <img className={styles.logoIcon} loading="lazy" alt="" src="./Logo.svg" />
+            <RouterLink to="/">
+              <img className={styles.logoIcon} loading="lazy" alt="" src="./Logo.svg" />
+            </RouterLink>
           </div>
           <div className={styles.frameContainer}>
             <div className={styles.linkParent}>
               {linkItems.map((item, index) => (
-                <Link key={index} status1={item.status1} linkAlignSelf={item.linkAlignSelf} linkJustifyContent={item.linkJustifyContent} link={item.link} />
+                <Link key={index} status1={item.status1} linkAlignSelf={item.linkAlignSelf} linkJustifyContent={item.linkJustifyContent} link={item.link} to={item.to} />
               ))}
             </div>
             <div className={styles.linkGroup}>
               {linkItems1.map((item, index) => (
-                <Link key={index} status1={item.status1} linkAlignSelf={item.linkAlignSelf} linkJustifyContent={item.linkJustifyContent} link={item.link} />
+                <Link key={index} status1={item.status1} linkAlignSelf={item.linkAlignSelf} linkJustifyContent={item.linkJustifyContent} link={item.link} to={item.to} />
               ))}
             </div>
           </div>

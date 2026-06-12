@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Component1 from "./pages/Component1";
+import About from "./pages/About";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/about":
+        title = "ТЕХ - О компании";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Component1 />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }
