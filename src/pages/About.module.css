@@ -31,16 +31,7 @@
   top: 0;
   left: 0;
 }
-.groupIcon {
-  margin: 0 !important;
-  position: absolute;
-  width: 89.5833vw;
-  height: 470.3125vw;
-  top: 0;
-  left: 5.2083vw;
-  z-index: 2;
-  flex-shrink: 0;
-}
+
 .h1 {
   width: 7752px;
   height: var(--height-92);

@@ -144,7 +144,7 @@
 .frameChild {
   width: 100%;
   max-width: 1525px;
-  margin: 0 auto;
+  margin: 60px auto 100px auto;
   border-radius: var(--br-15);
   overflow: hidden;
   object-fit: cover;
