@@ -32,7 +32,6 @@ const About = () => {
       <div className={styles.inner}>
         <div className={styles.frameParent}>
           <FrameComponent11111 />
-          <div className={styles.frameChild} />
           <AboutSection2 />
         </div>
       </div>
