@@ -240,8 +240,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--White);
-  border-radius: var(--br-15);
+  background-color: transparent;
   max-width: 100%;
 }
 .teamRow {
@@ -253,12 +252,14 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
+  border-radius: var(--br-15);
 }
 .teamRow:last-child {
   border-bottom: none;
 }
 .teamRowActive {
-  background-color: transparent;
+  background-color: var(--White);
+  border-bottom: none;
 }
 .teamPhoto {
   width: 280px;
