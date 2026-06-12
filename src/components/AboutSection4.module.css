@@ -136,15 +136,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-100);
-  max-width: 100%;
-  font-size: var(--fs-48);
+  gap: var(--gap-20);
 }
 .div4 {
   position: relative;
-  letter-spacing: -0.02em;
-  line-height: 100%;
+  line-height: 120%;
 }
 .card,
 .cards {
@@ -159,6 +155,7 @@
 }
 .card {
   flex: 1;
+  height: 480px;
   border-radius: var(--br-15);
   background-color: var(--Black-lines);
   flex-direction: column;
@@ -189,56 +186,57 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 8px transparent;
+  display: inline-block;
+  opacity: var(--opacity-0_3);
 }
 .bottom {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
   gap: 6px;
-  font-size: var(--fs-22);
-  color: var(--White);
+  font-size: var(--fs-24);
   font-family: var(--font-onest);
 }
-.h3 {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: inherit;
-  letter-spacing: -0.02em;
-  line-height: 120%;
-  font-weight: 500;
-  font-family: inherit;
-}
-.c {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--fs-16);
-  line-height: 120%;
-  color: var(--Grey);
-}
+.c,
+.h3,
 .vModelDfx {
   align-self: stretch;
   position: relative;
-  font-size: var(--fs-16);
   line-height: 120%;
-  color: var(--Grey);
+}
+.h3 {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--White);
+}
+.c,
+.vModelDfx {
+  font-size: var(--fs-14);
+}
+.vModelDfx {
+  letter-spacing: -0.03px;
 }
 .container {
-  align-self: stretch;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-100);
+  position: relative;
+  isolation: isolate;
+  gap: var(--gap-20);
   max-width: 100%;
 }
 .div6 {
-  align-self: stretch;
+  width: 109px;
+  height: var(--height-17);
   position: relative;
-  letter-spacing: -0.02em;
-  line-height: 100%;
+  line-height: 120%;
+  display: inline-block;
+  margin-bottom: 40px;
 }
 .teamSection {
   width: 100%;
