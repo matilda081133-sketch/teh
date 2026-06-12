@@ -203,7 +203,7 @@
 }
 .marqueeContent {
   display: inline-flex;
-  animation: marquee 20s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 .marqueeImage {
   height: 12vw;
@@ -213,7 +213,7 @@
 }
 .marqueeText {
   display: inline-block;
-  animation: marquee 20s linear infinite;
+  animation: marquee 60s linear infinite;
   white-space: nowrap;
 }
 @keyframes marquee {
