@@ -89,10 +89,12 @@
   max-width: 100%;
 }
 .frameSection {
+  position: relative;
+  z-index: 5;
   width: 100%;
   max-width: 1525px;
   justify-content: flex-end;
-  padding: 120px 174px 60px 0;
+  padding: 200px 174px 120px 0;
   margin: 0 auto;
   text-align: left;
   font-size: var(--fs-48);
