@@ -182,7 +182,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  background: linear-gradient(180deg, var(--Grey-Dark) 0%, var(--Black-lines) 75%);
+  background: linear-gradient(180deg, var(--Grey-Dark) 0%, var(--Black-lines) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 8px transparent;
@@ -259,7 +259,7 @@
   border-bottom: none;
 }
 .teamRowActive {
-  background-color: var(--White);
+  background-color: #ffffff;
   border-bottom: none;
 }
 .teamPhoto {
