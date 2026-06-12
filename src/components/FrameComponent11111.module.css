@@ -1,0 +1,196 @@
+.frameParent,
+.frameWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-19);
+  flex-shrink: 0;
+}
+.frameParent {
+  width: var(--width-1720);
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  gap: var(--gap-40);
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameGroup,
+.frameParent,
+.logoWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.logoWrapper {
+  width: 14.0625vw;
+  flex-direction: column;
+}
+.logoIcon {
+  width: 10.2083vw;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 7.9688vw;
+  max-width: 100%;
+}
+.frameDiv,
+.linkGroup,
+.linkParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.frameDiv {
+  align-items: flex-end;
+  gap: var(--gap-15);
+  text-align: right;
+  font-size: var(--fs-18);
+}
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-1);
+}
+.frameParent2 {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-15);
+}
+.link,
+.linkContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.linkContainer {
+  gap: var(--gap-5);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.linkContainer:hover {
+  opacity: 0.7;
+}
+.link {
+  align-self: stretch;
+  flex: 1;
+}
+.div {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.instanceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.3646vw var(--padding-0) var(--padding-0);
+}
+.frameChild {
+  width: var(--width-8);
+  height: var(--height-4);
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2);
+  position: relative;
+}
+.frameItem {
+  width: 0.8854vw;
+  height: var(--height-19);
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.frameItem:hover {
+  opacity: 0.7;
+}
+.searchInput {
+  position: absolute;
+  right: 1.5vw;
+  bottom: 0vw;
+  width: 15vw;
+  height: 1.5vw;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-gainsboro-200);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+  font-size: var(--fs-14);
+  outline: none;
+  padding: 0 0.5vw;
+  animation: slideIn 0.3s ease forwards;
+  z-index: 1;
+}
+@keyframes slideIn {
+  from { width: 0; opacity: 0; }
+  to { width: 15vw; opacity: 1; }
+}
+.frameInner,
+.link2 {
+  align-self: stretch;
+  z-index: 1;
+}
+.link2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.link2:hover {
+  opacity: 0.7;
+}
+.frameInner {
+  height: var(--height-1);
+  position: relative;
+  border-top: var(--border-2);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_3);
+}
+@media screen and (max-width: 48.1771vw) {
+  .frameParent {
+    gap: var(--gap-20);
+  }
+  .frameContainer {
+    width: 13.7500vw;
+  }
+  .link2,
+  .linkParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 23.4375vw) {
+  .frameContainer {
+    width: 18.1250vw;
+    gap: 3.9583vw;
+  }
+  .linkGroup {
+    display: none;
+  }
+}

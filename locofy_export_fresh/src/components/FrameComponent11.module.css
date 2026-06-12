@@ -1,0 +1,50 @@
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  z-index: 7;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameParent,
+.parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.div {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+  opacity: var(--opacity-0_5);
+}
+.component21Icon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  object-fit: contain;
+}
+.h3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-20);
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+@media screen and (max-width: 925px) {
+  .frameParent {
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-19);
+  }
+}

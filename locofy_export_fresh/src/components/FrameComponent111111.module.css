@@ -1,0 +1,141 @@
+.frameWrapper,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) 120px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 128px;
+  color: var(--Grey);
+  font-family: var(--font-winter-sans-trial);
+}
+.parent {
+  width: var(--width-1720);
+  flex-direction: column;
+  gap: var(--gap-40);
+}
+.div {
+  align-self: stretch;
+  height: 437px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.frameContainer {
+  width: 1676px;
+  height: 448px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameParent {
+  align-self: stretch;
+  width: 980px;
+  display: flex;
+  align-items: flex-end;
+  gap: 19.5px;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-15);
+  background-color: var(--Black-lines);
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild,
+.frameItem,
+.sida09Icon {
+  position: relative;
+  border-radius: var(--br-15);
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  width: var(--width-328);
+  background-color: var(--Black-lines);
+  display: none;
+}
+.frameItem,
+.sida09Icon {
+  flex: 1;
+}
+.sida09Icon {
+  height: 328px;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameItem {
+  align-self: stretch;
+  background-color: var(--Black-lines);
+  z-index: 1;
+}
+.group {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29.3px;
+}
+.div2,
+.frameInner {
+  position: relative;
+  flex-shrink: 0;
+}
+.div2 {
+  line-height: 120%;
+  z-index: 1;
+}
+.frameInner {
+  width: 97px;
+  height: 51px;
+  z-index: 4;
+}
+@media screen and (max-width: 1350px) {
+  .frameWrapper {
+    padding-bottom: var(--padding-78);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .frameWrapper {
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .parent {
+    gap: var(--gap-20);
+  }
+  .div {
+    font-size: 51px;
+    line-height: 69px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--fs-32);
+    line-height: 46px;
+  }
+}

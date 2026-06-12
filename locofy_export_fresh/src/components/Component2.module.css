@@ -1,0 +1,23 @@
+.div {
+  border-radius: var(--br-14);
+  background-color: var(--Grey);
+  padding: var(--padding-5) var(--padding-12);
+  text-align: left;
+  font-size: var(--fs-14);
+  font-family: var(--font-onest);
+}
+.div,
+.textWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  position: relative;
+  line-height: 120%;
+  background:
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), #1e1e22;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

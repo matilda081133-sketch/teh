@@ -1,0 +1,17 @@
+.link {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.link2 {
+  position: relative;
+  line-height: 110%;
+}
+@media screen and (max-width: 925px) {
+  .link2 {
+    display: none;
+  }
+}

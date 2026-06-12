@@ -1,0 +1,17 @@
+.footer,
+.footerChild {
+  height: 35.7813vw;
+  width: 100.0000vw;
+  flex-shrink: 0;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 3.6458vw var(--padding-100) 1.3021vw;
+  box-sizing: border-box;
+  z-index: 7;
+}
+.footerChild {
+  position: relative;
+  display: none;
+}

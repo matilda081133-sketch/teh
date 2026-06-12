@@ -1,0 +1,19 @@
+.div {
+  border-radius: var(--br-14);
+  background-color: var(--Grey);
+  padding: var(--padding-5) var(--padding-12);
+  text-align: left;
+  font-size: var(--fs-14);
+  font-family: var(--font-onest);
+}
+.div,
+.textWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  position: relative;
+  line-height: 120%;
+  color: var(--Black);
+}

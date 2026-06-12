@@ -1,0 +1,26 @@
+.link {
+  height: 0.9375vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.link:hover {
+  opacity: 0.7;
+}
+.link2 {
+  position: relative;
+  line-height: 110%;
+}
+@media screen and (max-width: 48.1771vw) {
+  .link2 {
+    display: none;
+  }
+}

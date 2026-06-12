@@ -1,0 +1,448 @@
+.frameParent,
+.frameWrapper,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) 6.1979vw;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameParent,
+.parent {
+  gap: var(--gap-20);
+}
+.frameParent {
+  width: var(--width-1720);
+  flex-direction: column;
+}
+.parent {
+  width: 71.4583vw;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-0) var(--padding-40);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.div {
+  position: relative;
+  line-height: 120%;
+  z-index: 1;
+}
+.group {
+  width: 53.3333vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-26);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--fs-48);
+}
+.b,
+.div2 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.b {
+  width: 58.5417vw;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.div2 {
+  width: var(--width-328);
+  font-size: var(--fs-14);
+  line-height: 120%;
+  text-align: left;
+}
+.p {
+  margin-block-start: 0;
+  margin-block-end: 0.5208vw;
+}
+.blankLine,
+.p,
+.p3 {
+  line-height: 120%;
+}
+.p3 {
+  margin: 0;
+}
+.frameContainer,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  height: var(--height-200);
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.lineParent {
+  width: 54.3750vw;
+  gap: 1.0313vw;
+}
+.frameChild {
+  align-self: stretch;
+  width: var(--width-1);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.lineGroup {
+  width: var(--width-1700);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2);
+  box-sizing: border-box;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.frameChild2 {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  border-top: var(--border-1);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  min-width: var(--min-w-303);
+  max-width: var(--max-w-309);
+  z-index: 1;
+}
+.frameDiv,
+.frameGroup,
+.frameSection {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 1.0260vw;
+}
+.frameDiv,
+.frameSection {
+  gap: var(--gap-20);
+}
+.frameSection {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameDiv {
+  height: var(--height-200);
+  width: 17.1354vw;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  z-index: 2;
+}
+.container,
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.div3 {
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+  opacity: var(--opacity-0_5);
+}
+.component21Icon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  object-fit: contain;
+}
+.h3 {
+  margin: 0;
+  width: 15.1042vw;
+  position: relative;
+  font-size: var(--fs-20);
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameChild7 {
+  align-self: stretch;
+  width: var(--width-1);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.lineContainer {
+  width: 18.1771vw;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-30);
+  max-width: 100%;
+}
+.frameChild8 {
+  height: var(--height-201);
+  width: var(--width-1);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.frameParent3,
+.frameParent4 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent3 {
+  gap: var(--gap-10);
+  min-width: 10.7813vw;
+}
+.frameParent4 {
+  height: var(--height-200);
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  z-index: 2;
+}
+.h32 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-20);
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameChild9 {
+  height: var(--height-201);
+  width: var(--width-1);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.frameParent5,
+.lineParent2 {
+  display: flex;
+  align-items: flex-start;
+}
+.lineParent2 {
+  width: 18.1250vw;
+  gap: 1.0156vw;
+  max-width: 100%;
+}
+.frameParent5 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  min-width: 10.4167vw;
+  min-height: 10.4167vw;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  font-size: var(--fs-20);
+}
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h33 {
+  margin: 0;
+  width: 13.6979vw;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.lineParent3 {
+  width: var(--width-1700);
+  height: var(--height-1);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-40);
+  max-width: 100%;
+}
+.frameChild12 {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  border-top: var(--border-1);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.frameParent6,
+.frameParent7,
+.frameWrapper3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper3 {
+  height: var(--height-200);
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) 1.0938vw;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.frameParent6,
+.frameParent7 {
+  gap: var(--gap-20);
+}
+.frameParent6 {
+  width: 53.3854vw;
+  max-width: 100%;
+}
+.frameParent7 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.h34 {
+  margin: 0;
+  width: 14.1667vw;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameWrapper5,
+.lineParent4 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper5 {
+  width: var(--width-1700);
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+}
+.lineParent4 {
+  height: var(--height-1);
+  width: 52.2917vw;
+  gap: var(--gap-40);
+}
+@media screen and (max-width: 95.0521vw) {
+  .lineGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 70.3125vw) {
+  .frameWrapper {
+    padding-bottom: 4.0104vw;
+    box-sizing: border-box;
+  }
+  .frameSection,
+  .parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 48.1771vw) {
+  .frameWrapper {
+    padding-bottom: 2.6042vw;
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: var(--fs-38);
+    line-height: var(--lh-38);
+  }
+  .lineParent {
+    flex-wrap: wrap;
+  }
+  .frameChild {
+    width: 100%;
+    height: var(--height-1);
+  }
+  .lineGroup,
+  .lineParent3 {
+    gap: var(--gap-20);
+  }
+  .frameParent6 {
+    flex-wrap: wrap;
+  }
+  .frameParent7 {
+    min-height: auto;
+  }
+  .lineParent4 {
+    gap: var(--gap-20);
+  }
+}
+@media screen and (max-width: 23.4375vw) {
+  .b {
+    font-size: var(--fs-29);
+    line-height: var(--lh-29);
+  }
+  .h3 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-19);
+  }
+  .lineContainer {
+    flex-wrap: wrap;
+  }
+  .frameChild8 {
+    width: 100%;
+    height: var(--height-1);
+  }
+  .h32 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-19);
+  }
+  .lineParent2 {
+    flex-wrap: wrap;
+  }
+  .frameParent5 {
+    min-height: auto;
+  }
+  .frameWrapper2 {
+    gap: 1.6146vw;
+  }
+  .h33,
+  .h34 {
+    font-size: var(--fs-16);
+    line-height: var(--lh-19);
+  }
+}

@@ -1,0 +1,475 @@
+<div style="width: 1920px; height: 5485px; position: relative; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20), #1E1E22; overflow: hidden">
+  <div style="width: 9030px; height: 0px; left: 776px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 795px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 1491px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 1472px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 1819px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 100px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 447px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 428px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 1143px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="width: 9030px; height: 0px; left: 1124px; top: -2px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 1px #272727 solid; outline-offset: -0.50px"></div>
+  <div style="padding-top: 1px; padding-bottom: 1px; left: 3540px; top: 2640px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+    <div style="color: rgba(0, 0, 0, 0.20); font-size: 18px; font-family: Onest; font-weight: 500; line-height: 18px; word-wrap: break-word">See Stretch</div>
+  </div>
+  <div style="width: 1720px; height: 0px; left: 100px; top: 154px; position: absolute; opacity: 0.30; outline: 1px #D9D8D8 solid; outline-offset: -0.50px"></div>
+  <div style="width: 1718px; left: 102px; top: 1299px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">                                                          Миссия компании - внедрение концепции «Цифрового предприятия» через создание единой экосистемы, связывающей идею устройства с его физическим воплощением и последующим сервисным сопровождением. </div>
+  <div style="left: 100px; top: 1299px; position: absolute; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">/ Наша миссия</div>
+  <div style="width: 328px; left: 796px; top: 1565px; position: absolute; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Мы стремимся к повышению конкурентоспособности отечественной промышленности, предоставляя доступ к передовым технологиям проектирования и производства.</div>
+  <div style="width: 1720px; left: 100px; top: 214px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; text-align: center; color: #D9D8D8; font-size: 128px; font-family: Winter Sans Trial; font-weight: 800; text-transform: uppercase; line-height: 115.20px; word-wrap: break-word">Технологическая устойчивость
+   / эффективность / качество </div>
+  <div style="width: 285px; height: 67.41px; left: 1143px; top: 991.32px; position: absolute; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Эффективная реализация высокотехнологичных проектов начинается с выстраивания прозрачных коммуникаций</div>
+  <div style="width: 328px; height: 448px; left: 796px; top: 691px; position: absolute; background: #272727; border-radius: 15px"></div>
+  <div style="width: 328px; height: 328px; left: 448px; top: 811px; position: absolute; background: #272727; border-radius: 15px"></div>
+  <img style="width: 328px; height: 328px; left: 448px; top: 811px; position: absolute; border-radius: 15px" src="https://placehold.co/328x328" />
+  <div style="width: 461px; left: 798px; top: 1943px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
+    <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex; flex-wrap: wrap; align-content: flex-start">
+      <div style="padding-left: 12px; padding-right: 12px; padding-top: 5px; padding-bottom: 5px; background: #D9D8D8; border-radius: 14px; justify-content: center; align-items: center; display: flex">
+        <div style="justify-content: center; align-items: center; gap: 5px; display: flex">
+          <div style="color: rgba(0, 0, 0, 0.20); font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">3-6 осевые манипуляторы</div>
+        </div>
+      </div>
+      <div style="padding-left: 12px; padding-right: 12px; padding-top: 5px; padding-bottom: 5px; background: #D9D8D8; border-radius: 14px; justify-content: center; align-items: center; display: flex">
+        <div style="justify-content: center; align-items: center; gap: 5px; display: flex">
+          <div style="color: rgba(0, 0, 0, 0.20); font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">универсальные манипуляторы</div>
+        </div>
+      </div>
+      <div style="padding-left: 12px; padding-right: 12px; padding-top: 5px; padding-bottom: 5px; background: #D9D8D8; border-radius: 14px; justify-content: center; align-items: center; display: flex">
+        <div style="justify-content: center; align-items: center; gap: 5px; display: flex">
+          <div style="color: rgba(0, 0, 0, 0.20); font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">дельта роботы</div>
+        </div>
+      </div>
+      <div style="padding-left: 12px; padding-right: 12px; padding-top: 5px; padding-bottom: 5px; background: #D9D8D8; border-radius: 14px; justify-content: center; align-items: center; display: flex">
+        <div style="justify-content: center; align-items: center; gap: 5px; display: flex">
+          <div style="color: rgba(0, 0, 0, 0.20); font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">роботы-сборщики</div>
+        </div>
+      </div>
+    </div>
+    <div style="align-self: stretch; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">и многое другое</div>
+  </div>
+  <div style="width: 407px; left: 369px; top: 1840px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 78 ]</div>
+  <div style="width: 503px; height: 28px; left: 795px; top: 1843px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">роботы манипуляторы</div>
+  <div style="width: 407px; left: 369px; top: 2086px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 17 ]</div>
+  <div style="width: 676px; left: 796px; top: 2086px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">3д принтеры</div>
+  <div style="width: 407px; left: 369px; top: 2180px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 09 ]</div>
+  <div style="left: 796px; top: 2180px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">термопластавтоматы</div>
+  <div style="width: 407px; left: 369px; top: 2274px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 14 ]</div>
+  <div style="width: 407px; left: 369px; top: 2416px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 34 ]</div>
+  <div style="width: 770px; left: 796px; top: 2274px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">фрезерные обрабатывающие центры</div>
+  <div style="left: 796px; top: 2416px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">токарные станки</div>
+  <div style="width: 407px; left: 369px; top: 2510px; position: absolute; text-align: right; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 314 ]</div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 1860px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 761px; left: 795px; top: 2510px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">инструмент и расходные материалы</div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 2106px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 2200px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 1810px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2056px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 2294px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2244px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 2436px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2150px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2386px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 20px; height: 20px; left: 1799px; top: 2530px; position: absolute; transform: rotate(-90deg); transform-origin: top left">
+    <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2480px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 1720px; height: 0px; left: 1820px; top: 2622px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <img style="width: 155px; height: 280px; left: 369px; top: 1776px; position: absolute" src="https://placehold.co/155x280" />
+  <img style="width: 442px; height: 520px; left: 739px; top: 619px; position: absolute" src="https://placehold.co/442x520" />
+  <div style="width: 294px; left: 100px; top: 1840px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">01</div>
+  <div style="width: 294px; left: 100px; top: 2086px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">02</div>
+  <div style="width: 294px; left: 100px; top: 2180px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">03</div>
+  <div style="width: 294px; left: 100px; top: 2274px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">04</div>
+  <div style="width: 294px; left: 100px; top: 2416px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">05</div>
+  <div style="width: 294px; left: 100px; top: 2510px; position: absolute; opacity: 0.50; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 38.40px; word-wrap: break-word">06</div>
+  <div style="width: 308px; height: 0px; left: 756px; top: 3576px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 408px; top: 3576px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1104px; top: 3576px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1452px; top: 3576px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1800px; top: 3576px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 756px; top: 3820px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 408px; top: 3820px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 756px; top: 4060px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1104px; top: 4060px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1452px; top: 4060px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1104px; top: 3820px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1452px; top: 3820px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 0px; left: 1800px; top: 3820px; position: absolute; transform: rotate(180deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 776px; top: 3600px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 428px; top: 3600px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 776px; top: 3840px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1124px; top: 3356px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 776px; top: 3356px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1124px; top: 3600px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1124px; top: 3840px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1472px; top: 3356px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1819px; top: 3356px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1472px; top: 3600px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1819px; top: 3600px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 200px; height: 0px; left: 1472px; top: 3840px; position: absolute; transform: rotate(90deg); transform-origin: top left; opacity: 0.50; outline: 1px #B1B1B1 solid; outline-offset: -0.50px"></div>
+  <div style="width: 308px; height: 200px; left: 100px; top: 3600px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 04 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="width: 290px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Промышленный дизайн и проектирование корпусов</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 448px; top: 3840px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 07 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="width: 293px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Аудит производственных процессов</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 1144px; top: 3356px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 02 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="width: 260px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Трассировка печатных плат</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 806px; top: 3600px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 05 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Подготовка к серийному производству</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 1144px; top: 3840px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 09 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; justify-content: flex-start; align-items: flex-end; gap: 62px; display: inline-flex">
+      <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 15px; display: inline-flex">
+        <div style="width: 272px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Внедрение</div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 1492px; top: 3356px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 03 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Разработка встраиваемого ПО</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 1492px; top: 3600px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 06 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; justify-content: flex-start; align-items: flex-end; gap: 62px; display: inline-flex">
+      <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 15px; display: inline-flex">
+        <div style="width: 263px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Размещение заказов в России и Китае</div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 796px; top: 3356px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 01 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Схемотехническое проектирование</div>
+  </div>
+  <div style="width: 308px; height: 200px; left: 796px; top: 3840px; position: absolute; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+      <div style="opacity: 0.50; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 600; line-height: 18.20px; word-wrap: break-word">[ 08 ]</div>
+      <div style="width: 20px; height: 20px; position: relative; transform: rotate(-90deg); transform-origin: top left">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      </div>
+    </div>
+    <div style="width: 279px; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Проектирование систем автоматизации</div>
+  </div>
+  <div style="width: 1024px; left: 448px; top: 3027px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex">
+    <div style="width: 1124px; text-box-trim: trim-both; text-box-edge: cap alphabetic; text-align: center; color: #D9D8D8; font-size: 48px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 48px; word-wrap: break-word">Наша команда готова включиться
+    в проект на любом этапе: от первичного аудита до поставок готовых
+    серийных изделий</div>
+    <div style="width: 328px; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Мы не просто предоставляем услуги - 
+    мы создаем долгосрочную инфраструктуру 
+    для вашего бизнеса</div>
+  </div>
+  <div style="left: 100px; top: 3027px; position: absolute; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">/ Наши услуги</div>
+  <div style="width: 142.93px; height: 147.98px; left: 1034.74px; top: 2861.80px; position: absolute; background: #D9D8D8"></div>
+  <div style="width: 600px; height: 307.58px; left: 660px; top: 2782px; position: absolute; background: #D9D8D8"></div>
+  <div style="width: 606px; left: 657px; top: 4294px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; text-align: center; color: #D9D8D8; font-size: 220px; font-family: Winter Sans Trial; font-weight: 800; text-transform: uppercase; line-height: 198px; word-wrap: break-word">100+</div>
+  <div style="width: 328px; left: 796px; top: 4220px; position: absolute; text-align: center; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Наша компания имеет крупный пул кочевых паттернов и вот только некоторые из них</div>
+  <div style="left: 100px; top: 4220px; position: absolute; color: #D9D8D8; font-size: 14px; font-family: Onest; font-weight: 400; line-height: 16.80px; word-wrap: break-word">/ Партнеры</div>
+  <div style="left: -248px; top: 4418px; position: absolute; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 36.94px; height: 41.33px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 8.82px; height: 7.33px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 8.82px; height: 26.67px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 38.31px; height: 41.33px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 44.36px; height: 41.38px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 54.59px; height: 39.29px"></div>
+      <div style="width: 54.63px; height: 39.32px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 54.59px; height: 39.32px"></div>
+      <div style="width: 54.59px; height: 39.32px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 65.85px; height: 32.48px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 69.03px; height: 31.87px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 33.22px; height: 31.20px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 24.42px; height: 26.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 39.42px; height: 3.66px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 16.24px; height: 9.18px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 15.51px; height: 9.50px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 5.20px; height: 5.20px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 3.71px; height: 2px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 11.83px; height: 26.16px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 32.40px; height: 26.12px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 32.40px; height: 26.57px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 11.83px; height: 26.57px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 57.48px; height: 26.12px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 57.48px; height: 26.61px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 48.04px; height: 41.76px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 56.91px; height: 41.78px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 79.44px; height: 41.77px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 16.56px; height: 16.56px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 81.97px; height: 74.24px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 80.04px; height: 72.95px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 18.12px; height: 19.04px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 16.10px; height: 16.10px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 72.72px; height: 36.81px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 57.58px; height: 36.82px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 57.27px; height: 39.45px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 4.46px; height: 4.45px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+    <div style="width: 328px; height: 220px; padding-left: 55px; padding-right: 55px; padding-top: 83px; padding-bottom: 83px; background: #272727; border-radius: 15px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+      <div style="width: 30.21px; height: 40.23px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 15.17px; height: 14.02px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 15.85px; height: 10.74px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 13.25px; height: 10.74px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 14.32px; height: 19.81px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 13.33px; height: 29.19px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 101.80px; height: 8.31px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 3.84px; height: 4.73px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 5.03px; height: 4.77px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 5.03px; height: 4.77px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 3.15px; height: 4.73px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 3.58px; height: 4.77px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+      <div style="width: 0.72px; height: 0.72px; background: #B1B1B1; border: 1px #B1B1B1 solid"></div>
+    </div>
+  </div>
+  <div style="width: 16px; height: 28px; left: 1204px; top: 1099px; position: absolute; outline: 3px #D9D8D8 solid; outline-offset: -1.50px"></div>
+  <div style="width: 16px; height: 28px; left: 1179px; top: 1127px; position: absolute; transform: rotate(-180deg); transform-origin: top left; outline: 3px #D9D8D8 solid; outline-offset: -1.50px"></div>
+  <div style="width: 97px; height: 51px; left: 1143px; top: 1088px; position: absolute; border-radius: 25.50px; border: 3px #D9D8D8 solid"></div>
+  <div style="width: 1920px; height: 687px; left: 0px; top: 4798px; position: absolute">
+    <div style="width: 58px; left: 1068px; top: 395px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 8px; display: inline-flex">
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-end; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">K1Т</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-end; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">Р-МАШ</div>
+      </div>
+    </div>
+    <div style="width: 12px; height: 12px; left: 1320px; top: 567px; position: absolute; border-radius: 4px; border: 1px #D9D8D8 solid"></div>
+    <div style="width: 1720px; height: 0px; left: 100px; top: 614px; position: absolute; opacity: 0.30; outline: 1px #D9D8D8 solid; outline-offset: -0.50px"></div>
+    <div style="width: 437px; left: 839px; top: 282px; position: absolute; color: #D9D8D8; font-size: 20px; font-family: Onest; font-weight: 400; text-transform: uppercase; line-height: 24px; word-wrap: break-word">Единственное
+    счастье в жизни
+    – 
+    это постоянное стремление
+    вперЁд</div>
+    <div style="width: 676px; height: 255px; left: 100px; top: 70px; position: absolute">
+      <div style="width: 255.84px; height: 50.97px; left: 0px; top: 0px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 127.55px; height: 50.97px; left: 205.12px; top: 102.09px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 506.93px; height: 255px; left: 102.78px; top: 0px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 164.03px; height: 91.45px; left: 281.49px; top: 0px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 164.18px; height: 91.30px; left: 445.53px; top: 163.55px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 51.32px; height: 51.12px; left: 624.68px; top: 0px; position: absolute; background: #D9D8D8"></div>
+      <div style="width: 22.10px; height: 24.97px; left: 639.66px; top: 13.59px; position: absolute; background: #D9D8D8"></div>
+    </div>
+    <div style="width: 156px; left: 796px; top: 395px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">о компании</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">миссия</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">партнеры</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">карьера</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">страны присутствия</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">логистика</div>
+      </div>
+    </div>
+    <div style="width: 203px; left: 448px; top: 395px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">трассировка печатных плат</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">разработка корпусов</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">программирование</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">комплексное внедрение</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">производство</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">индустрии</div>
+      </div>
+    </div>
+    <div style="width: 210px; left: 100px; top: 395px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">роботы манипуляторы</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">фрезерные 
+        обрабатывающие центры</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">токарные станки</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">3д принтеры</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">термопластавтоматы</div>
+      </div>
+      <div data-status="Default" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">инструмент и расходные 
+        материалы</div>
+      </div>
+    </div>
+    <div style="left: 1682px; top: 395px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+      <div style="text-align: right; color: #D9D8D8; font-size: 18px; font-family: Onest; font-weight: 500; line-height: 18px; word-wrap: break-word">8 800 543 77 41</div>
+    </div>
+    <div style="left: 1715px; top: 418px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+      <div style="text-align: right; color: #D9D8D8; font-size: 18px; font-family: Onest; font-weight: 500; line-height: 18px; word-wrap: break-word">info@4ao.ru</div>
+    </div>
+    <div style="width: 118.50px; height: 122.68px; left: 1630.69px; top: 136.16px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 497.44px; height: 255px; left: 1320px; top: 70px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 499px; height: 50px; left: 1320px; top: 506px; position: absolute; border-radius: 15px; border: 2px #D9D8D8 solid"></div>
+    <div style="width: 24px; height: 8px; left: 1776px; top: 536.80px; position: absolute; transform: rotate(-45deg); transform-origin: top left">
+      <div style="width: 22.63px; height: 22.63px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+      <div style="width: 6.46px; height: 6.46px; left: 11.31px; top: 16.16px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+    </div>
+    <div style="left: 1340px; top: 523px; position: absolute; opacity: 0.30; color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">введите ваш e-mail</div>
+    <div style="width: 300px; left: 1320px; top: 395px; position: absolute; text-box-trim: trim-both; text-box-edge: cap alphabetic; color: #D9D8D8; font-size: 32px; font-family: Onest; font-weight: 700; text-transform: uppercase; line-height: 35.20px; word-wrap: break-word">ХОТИТЕ СОТРУДНИЧАТЬ
+    С НАМИ?</div>
+    <div style="width: 679px; left: 100px; top: 634px; position: absolute; color: #D9D8D8; font-size: 12px; font-family: Onest; font-weight: 400; line-height: 14.40px; word-wrap: break-word">Вы принимаете условия политики в отношении обработки персональных данных и пользовательского соглашения каждый раз, когда оставляете свои данные в любой форме обратной связи на сайте 4ao.ru</div>
+    <div style="width: 619px; left: 1200px; top: 638px; position: absolute; text-align: right; color: #D9D8D8; font-size: 12px; font-family: Onest; font-weight: 400; line-height: 14.40px; word-wrap: break-word">© Copyright 2024. Все права защищены.</div>
+    <div style="left: 1337px; top: 566px; position: absolute; color: #D9D8D8; font-size: 12px; font-family: Onest; font-weight: 400; line-height: 14.40px; word-wrap: break-word">Отправляя заявку, я даю согласие на обработку персональных данных</div>
+    <div style="width: 33px; height: 70px; left: 796px; top: 255px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 1920px; height: 687px; left: 0px; top: 0px; position: absolute"></div>
+  </div>
+  <div data-status="Default" style="left: 796px; top: 40px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ Каталог оборудования ]</div>
+  </div>
+  <div data-status="Default" style="left: 796px; top: 66px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ Услуги ]</div>
+  </div>
+  <div data-status="Default" style="left: 796px; top: 92px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ Отрасли ]</div>
+  </div>
+  <div data-status="Default" style="left: 1144px; top: 66px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ Бренды ]</div>
+  </div>
+  <div data-status="Default" style="left: 1144px; top: 92px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ Контакты ]</div>
+  </div>
+  <div data-status="Default" style="left: 1144px; top: 40px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 16px; font-family: Onest; font-weight: 400; line-height: 17.60px; word-wrap: break-word">[ О компании ]</div>
+  </div>
+  <div style="width: 196px; height: 74px; left: 100px; top: 40px; position: absolute">
+    <div style="width: 74.18px; height: 14.79px; left: 0px; top: 0px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 36.98px; height: 14.79px; left: 59.47px; top: 29.63px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 146.98px; height: 74px; left: 29.80px; top: 0px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 47.56px; height: 26.54px; left: 81.62px; top: 0px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 47.60px; height: 26.50px; left: 129.18px; top: 47.46px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 14.88px; height: 14.83px; left: 181.12px; top: 0px; position: absolute; background: #D9D8D8"></div>
+    <div style="width: 6.41px; height: 7.25px; left: 185.46px; top: 3.94px; position: absolute; background: #D9D8D8"></div>
+  </div>
+  <div style="left: 1681px; top: 76px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="color: #D9D8D8; font-size: 18px; font-family: Onest; font-weight: 500; line-height: 18px; word-wrap: break-word">8 800 543 77 41</div>
+  </div>
+  <div style="width: 16.26px; height: 16.10px; left: 1800px; top: 40px; position: absolute; border-radius: 9999px; border: 3px #D9D8D8 solid"></div>
+  <div style="left: 1750px; top: 43px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div style="text-align: right; color: #D9D8D8; font-size: 18px; font-family: Onest; font-weight: 500; line-height: 18px; word-wrap: break-word">Ру</div>
+  </div>
+  <div style="width: 8px; height: 4px; left: 1777px; top: 50px; position: absolute">
+    <div style="width: 8px; height: 4px; left: 0px; top: 0px; position: absolute; outline: 2px #D9D8D8 solid; outline-offset: -1px"></div>
+  </div>
+</div>
