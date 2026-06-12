@@ -6,7 +6,6 @@ const FrameComponent111 = ({ className = "" }) => {
     <section className={[styles.frameParent, className].join(" ")}>
       <div className={styles.lineParent}>
         <div className={styles.frameChild} />
-        <div className={styles.frameItem} />
       </div>
       <div className={styles.frameWrapper}>
         <div className={styles.frameGroup}>

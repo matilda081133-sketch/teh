@@ -124,7 +124,7 @@
   position: relative;
 }
 .b {
-  height: 11.7708vw;
+  min-height: 11.7708vw;
   flex: 1;
   letter-spacing: -0.03em;
   line-height: 100%;
