@@ -27,7 +27,7 @@ const root = createRoot(container);
 
 root.render(
   <ErrorBoundary>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </ErrorBoundary>
