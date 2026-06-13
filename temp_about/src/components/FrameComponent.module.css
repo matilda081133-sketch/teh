@@ -1,0 +1,125 @@
+.frameParent,
+.logoWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.logoWrapper {
+  width: 270px;
+  flex-direction: column;
+}
+.logoIcon {
+  width: 196px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 153px;
+  max-width: 100%;
+}
+.frameContainer,
+.linkGroup,
+.linkParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.frameContainer {
+  align-items: flex-end;
+  gap: var(--gap-15);
+  text-align: right;
+  font-size: var(--fs-18);
+}
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-1);
+}
+.frameDiv {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-15);
+}
+.link,
+.linkContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.linkContainer {
+  gap: var(--gap-5);
+}
+.link {
+  align-self: stretch;
+  flex: 1;
+}
+.div {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.instanceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 7px var(--padding-0) var(--padding-0);
+}
+.frameChild {
+  width: var(--width-8);
+  height: var(--height-4);
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2);
+}
+.frameItem {
+  width: 17px;
+  height: var(--height-19);
+  position: relative;
+  z-index: 1;
+}
+.link2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  text-align: left;
+}
+@media screen and (max-width: 925px) {
+  .frameGroup {
+    width: 264px;
+  }
+  .link2,
+  .linkParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    width: 348px;
+    gap: 76px;
+  }
+  .linkGroup {
+    display: none;
+  }
+}

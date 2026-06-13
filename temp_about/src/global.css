@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Winter+Sans+Trial:ital,wght@0,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:ital,wght@0,400;0,500;0,700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --Black:
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), #1e1e22;
+  --Black-lines: #272727;
+  --color-gainsboro-100: rgba(217, 216, 216, 0.3);
+  --Grey: #d9d8d8;
+  --Grey-Dark: #b1b1b1;
+  --White: #fff;
+
+  /* Gap */
+  --gap-4: 4px;
+  --gap-5: 5px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-12: 12px;
+  --gap-15: 15px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+  --gap-25: 25px;
+  --gap-30: 30px;
+  --gap-32: 32px;
+  --gap-40: 40px;
+  --gap-50: 50px;
+  --gap-60: 60px;
+  --gap-64: 64px;
+  --gap-80: 80px;
+  --gap-100: 100px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-01: 0;
+  --padding-1: 1px;
+  --padding-2: 2px;
+  --padding-4: 4px;
+  --padding-15: 15px;
+  --padding-20: 20px;
+  --padding-22: 22px;
+  --padding-30: 30px;
+  --padding-100: 100px;
+
+  /* BorderRadius */
+  --br-15: 15px;
+
+  /* Font */
+  --font-onest: Onest;
+  --font-winter-sans-trial: Winter Sans Trial;
+
+  /* FontSize */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-26: 26px;
+  --fs-32: 32px;
+  --fs-48: 48px;
+  --fs-51: 51px;
+  --fs-128: 128px;
+
+  /* Borders */
+  --border-1: 1px solid var(--Grey-Dark);
+
+  /* Gradients */
+  --gradient-1: linear-gradient(180deg, var(--Grey-Dark), var(--Black-lines));
+
+  /* WidthHeights */
+  --height-1: 1px;
+  --height-4: 4px;
+  --height-14: 14px;
+  --height-17: 17px;
+  --height-18: 18px;
+  --height-19: 19px;
+  --height-20: 20px;
+  --height-28: 28px;
+  --height-48: 48px;
+  --height-50: 50px;
+  --height-92: 92px;
+  --height-106: 106px;
+  --height-185: 185px;
+  --height-255: 255px;
+  --height-270: 270px;
+  --height-592: 592px;
+  --max-w-415: 415px;
+  --min-w-311: 311px;
+  --width-1: 1px;
+  --width-8: 8px;
+  --width-12: 12px;
+  --width-175: 175px;
+  --width-328: 328px;
+  --width-437: 437px;
+  --width-499: 499px;
+  --width-500: 500px;
+  --width-619: 619px;
+  --width-669: 669px;
+  --width-676: 676px;
+  --width-994: 994px;
+  --width-1720: 1720px;
+
+  /* LineHeights */
+  --lh-19: 19px;
+  --lh-23: 23px;
+  --lh-31: 31px;
+  --lh-46: 46px;
+  --lh-69: 69px;
+
+  /* LetterSpacings */
+  --ls--0_02: -0.02;
+  --ls--0_03: -0.03;
+
+  /* Opacities */
+  --opacity-0_3: 0.3;
+  --opacity-0_5: 0.5;
+
+  --left-0: 0px;
+  --top-0: 0px;
+  --top-36: 36px;
+}

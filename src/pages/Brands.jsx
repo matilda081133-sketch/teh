@@ -1,0 +1,69 @@
+import FrameComponent11111 from "../components/FrameComponent11111";
+import GroupComponent from "../components/GroupComponent";
+import styles from "./Brands.module.css";
+import { useEffect } from "react";
+
+const Brands = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className={styles.div}>
+      {/* Background grid lines */}
+      <img className={styles.child} alt="" src="./Group-146.svg" />
+
+      {/* Header */}
+      <FrameComponent11111 />
+
+      {/* Main Content */}
+      <main className={styles.inner}>
+        <div className={styles.breadcrumb}>/ Бренды</div>
+
+        <section className={styles.cardsContainer}>
+          {/* Card 1: KIT */}
+          <div className={styles.card}>
+            <div className={styles.cardTop}>
+              {/* Fallback to text if logo image is missing, but using placeholder for now */}
+              <img className={styles.cardLogo} alt="KIT" src="./Group-248.svg" />
+              <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
+            </div>
+            <div className={styles.cardImageContainer}>
+              {/* Drone Image Placeholder */}
+              <img className={styles.cardImage} alt="Drone" src="./1-1@2x.png" />
+            </div>
+            <div className={styles.cardBottom}>
+              <h2 className={styles.cardTitle}>Инженерия без компромиссов</h2>
+              <p className={styles.cardSubtitle}>
+                Сверхпрочные инженерные наборы для тех, кто готов выйти за рамки обычной детской игрушки
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2: P-MASH */}
+          <div className={styles.card}>
+            <div className={styles.cardTop}>
+              <img className={styles.cardLogo} alt="P-MASH" src="./Group-271.svg" />
+              <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
+            </div>
+            <div className={styles.cardImageContainer}>
+              {/* CNC Machine Image Placeholder */}
+              <img className={styles.cardImage} alt="CNC Machine" src="./SIDA-09@2x.png" />
+            </div>
+            <div className={styles.cardBottom}>
+              <h2 className={styles.cardTitle}>Технологическая независимость</h2>
+              <p className={styles.cardSubtitle}>
+                Огромная линейка для автоматизации вашего производства любой сложности
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <GroupComponent />
+    </div>
+  );
+};
+
+export default Brands;

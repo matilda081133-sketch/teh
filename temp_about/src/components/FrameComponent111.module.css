@@ -1,0 +1,147 @@
+.frameParent,
+.lineParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1739px;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-20) 81px var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Grey);
+  font-family: var(--font-onest);
+}
+.lineParent {
+  align-self: stretch;
+  height: var(--height-1);
+  gap: var(--gap-40);
+}
+.frameChild,
+.frameItem {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  border-top: var(--border-1);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  max-width: calc(100% - 880px);
+  z-index: 1;
+}
+.frameItem {
+  max-width: calc(100% - 881px);
+}
+.frameWrapper {
+  width: 1637px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup,
+.parent {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.parent {
+  height: var(--height-92);
+  justify-content: flex-end;
+  gap: var(--gap-24);
+}
+.div {
+  width: 108px;
+  line-height: 120%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.div,
+.frameInner,
+.h2 {
+  position: relative;
+}
+.h2 {
+  margin: 0;
+  width: 243px;
+  font-size: var(--fs-128);
+  letter-spacing: -0.02em;
+  line-height: 90%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--font-winter-sans-trial);
+  display: inline-block;
+}
+.frameInner {
+  height: 141px;
+  width: var(--width-1);
+  border-right: 1px solid var(--Grey-Dark);
+  box-sizing: border-box;
+  opacity: var(--opacity-0_5);
+  z-index: 1;
+}
+.group {
+  height: var(--height-92);
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-24);
+  font-size: var(--fs-128);
+  font-family: var(--font-winter-sans-trial);
+}
+.div2,
+.h22 {
+  position: relative;
+  display: inline-block;
+}
+.h22 {
+  margin: 0;
+  width: 161px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 90%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+}
+.div2 {
+  width: 107px;
+  font-size: var(--fs-14);
+  line-height: 120%;
+  font-family: var(--font-onest);
+  flex-shrink: 0;
+}
+@media screen and (max-width: 925px) {
+  .lineParent {
+    gap: var(--gap-20);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .h2 {
+    font-size: var(--fs-51);
+    line-height: var(--lh-69);
+  }
+  .frameInner {
+    width: 100%;
+    height: var(--height-1);
+  }
+  .h22 {
+    font-size: var(--fs-51);
+    line-height: var(--lh-69);
+  }
+}
+@media screen and (max-width: 450px) {
+  .parent {
+    flex-wrap: wrap;
+  }
+  .h2,
+  .h22 {
+    font-size: var(--fs-32);
+    line-height: var(--lh-46);
+  }
+}
