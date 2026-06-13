@@ -6,6 +6,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
+  position: relative;
 }
 .footerInner {
   flex-shrink: 0;
@@ -83,10 +84,14 @@
   margin: 0;
 }
 .groupIcon {
-  height: var(--height-255);
-  width: 25.9063vw;
-  position: relative;
-  z-index: 1;
+  height: 25vw;
+  width: auto;
+  position: absolute;
+  left: 10vw;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+  opacity: 0.05;
 }
 .frameContainer {
   width: var(--width-1720);
@@ -107,19 +112,18 @@
 }
 .frameDiv {
   width: var(--width-1720);
-  height: var(--height-185);
-  gap: 6.0417vw;
+  height: auto;
+  gap: 0;
 }
 .frameWrapper {
-  height: 9.5833vw;
-  width: 12.0833vw;
+  width: 18.125vw;
   flex-direction: column;
-  padding: var(--padding-0) var(--padding-22) var(--padding-0) var(--padding-0);
+  padding: 0;
   box-sizing: border-box;
   z-index: 3;
 }
 .linkParent {
-  width: 10.9375vw;
+  width: auto;
   flex-direction: column;
   gap: var(--gap-8);
 }
@@ -130,12 +134,12 @@
   align-items: flex-start;
 }
 .frameParent2 {
-  height: 7.7083vw;
-  width: 26.2500vw;
-  gap: 7.5521vw;
+  height: auto;
+  width: 36.25vw;
+  gap: 0;
 }
 .linkGroup {
-  width: 10.5729vw;
+  width: 18.125vw;
   flex-direction: column;
   gap: var(--gap-8);
   z-index: 2;
@@ -146,16 +150,16 @@
   z-index: 1;
 }
 .linkContainer {
-  width: 8.1250vw;
+  width: 18.125vw;
   display: flex;
   flex-direction: column;
   gap: var(--gap-8);
 }
 .frameWrapper2 {
-  height: 2.2917vw;
-  width: 7.0833vw;
-  padding: var(--padding-0) var(--padding-78) var(--padding-0) var(--padding-0);
-  box-sizing: border-box;
+  width: 18.125vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 .frameParent3,
 .frameWrapper2,
