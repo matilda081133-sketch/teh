@@ -63,6 +63,8 @@
 .breadcrumb {
   font-size: var(--fs-14);
   text-transform: none;
+  margin-left: 347px;
+  margin-bottom: 20px;
 }
 
 .cardsContainer {
@@ -70,18 +72,18 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   width: 100%;
-  margin-bottom: 120px;
+  max-width: 1720px;
 }
 
 .card {
-  background: #252528;
+  background: #181818;
   border-radius: var(--br-15);
   padding: 40px;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  min-height: 600px;
+  height: 480px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -99,13 +101,13 @@
 }
 
 .cardLogo {
-  height: 60px;
+  height: 40px;
   object-fit: contain;
 }
 
 .cardArrow {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
@@ -116,11 +118,10 @@
 
 .cardImageContainer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 70%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,9 +129,10 @@
 }
 
 .cardImage {
-  max-width: 120%;
-  max-height: 120%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
 }
 
 .cardBottom {
@@ -140,8 +142,8 @@
 }
 
 .cardTitle {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 28px;
+  font-weight: 700;
   margin: 0 0 10px 0;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -156,6 +158,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .breadcrumb {
+    margin-left: 20px;
+  }
   .cardsContainer {
     grid-template-columns: 1fr;
   }
