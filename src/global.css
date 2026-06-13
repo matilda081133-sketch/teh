@@ -11,6 +11,8 @@ body {
   margin: 0;
   line-height: normal;
   background-color: #080809;
+  font-family: var(--font-onest);
+  color: var(--Grey);
 }
 :root {
   /* Common Style Variables */

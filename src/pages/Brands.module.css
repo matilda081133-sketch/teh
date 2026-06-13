@@ -128,7 +128,6 @@
 }
 
 .cardTitle {
-  font-family: var(--font-winter-sans-trial);
   font-size: 32px;
   font-weight: 800;
   margin: 0 0 10px 0;
