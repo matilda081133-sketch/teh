@@ -63,6 +63,7 @@
   background: #181818;
   border-radius: var(--br-15);
   padding: 30px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -104,9 +105,9 @@
 
 .cardImageContainer {
   position: absolute;
-  bottom: 0;
-  right: -20px;
-  height: 100%;
+  top: -30px;
+  bottom: -30px;
+  right: -30px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
