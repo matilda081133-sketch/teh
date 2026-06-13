@@ -13,24 +13,25 @@ const Brands = () => {
       {/* Background grid lines */}
       <img className={styles.child} alt="" src="./Group-146.svg" />
 
-      {/* Header */}
-      <FrameComponent11111 />
+      {/* Header and Breadcrumb */}
+      <div className={styles.inner}>
+        <div className={styles.frameParent}>
+          <FrameComponent11111 />
+          <div className={styles.breadcrumb}>/ Бренды</div>
+        </div>
+      </div>
 
       {/* Main Content */}
-      <main className={styles.inner}>
-        <div className={styles.breadcrumb}>/ Бренды</div>
-
+      <main className={styles.frameGroup}>
         <section className={styles.cardsContainer}>
           {/* Card 1: KIT */}
           <div className={styles.card}>
             <div className={styles.cardTop}>
-              {/* Fallback to text if logo image is missing, but using placeholder for now */}
-              <img className={styles.cardLogo} alt="KIT" src="./Group-248.svg" />
+              <img className={styles.cardLogo} alt="KIT" src="./logo-kit.png" />
               <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
             </div>
             <div className={styles.cardImageContainer}>
-              {/* Drone Image Placeholder */}
-              <img className={styles.cardImage} alt="Drone" src="./1-1@2x.png" />
+              <img className={styles.cardImage} alt="Drone" src="./brand-drone.png" />
             </div>
             <div className={styles.cardBottom}>
               <h2 className={styles.cardTitle}>Инженерия без компромиссов</h2>
@@ -43,12 +44,11 @@ const Brands = () => {
           {/* Card 2: P-MASH */}
           <div className={styles.card}>
             <div className={styles.cardTop}>
-              <img className={styles.cardLogo} alt="P-MASH" src="./Group-271.svg" />
+              <img className={styles.cardLogo} alt="P-MASH" src="./logo-rmash.png" />
               <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
             </div>
             <div className={styles.cardImageContainer}>
-              {/* CNC Machine Image Placeholder */}
-              <img className={styles.cardImage} alt="CNC Machine" src="./SIDA-09@2x.png" />
+              <img className={styles.cardImage} alt="CNC Machine" src="./brand-cnc.png" />
             </div>
             <div className={styles.cardBottom}>
               <h2 className={styles.cardTitle}>Технологическая независимость</h2>
