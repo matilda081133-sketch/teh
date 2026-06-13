@@ -1,4 +1,4 @@
-﻿import FrameComponent11111 from "../components/FrameComponent11111";
+import FrameComponent11111 from "../components/FrameComponent11111";
 import GroupComponent from "../components/GroupComponent";
 import styles from "./Brands.module.css";
 import { useEffect } from "react";
@@ -29,7 +29,7 @@ const Brands = () => {
                 <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
               </div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} alt="Drone" src="./brand-drone.png" />
+                <img className={styles.cardImage} alt="Drone" src="./brand-drone.png?v=2" />
               </div>
               <div className={styles.cardBottom}>
                 <h2 className={styles.cardTitle}>Инженерия без<br />компромиссов</h2>
@@ -46,7 +46,7 @@ const Brands = () => {
                 <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
               </div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} alt="CNC Machine" src="./brand-cnc.png" />
+                <img className={styles.cardImage} alt="CNC Machine" src="./brand-cnc.png?v=2" />
               </div>
               <div className={styles.cardBottom}>
                 <h2 className={styles.cardTitle}>Технологическая<br />независимость</h2>
