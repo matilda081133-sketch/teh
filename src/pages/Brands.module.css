@@ -85,8 +85,8 @@
 }
 
 .cardLogo {
-  max-width: 273px;
-  height: 100px;
+  height: 48px;
+  width: auto;
   object-fit: contain;
   object-position: left top;
 }
@@ -105,7 +105,7 @@
 .cardImageContainer {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -20px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -114,8 +114,8 @@
 }
 
 .cardImage {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
   object-fit: contain;
   object-position: right bottom;
 }
