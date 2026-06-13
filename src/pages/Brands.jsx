@@ -13,16 +13,13 @@ const Brands = () => {
       {/* Background grid lines */}
       <img className={styles.child} alt="" src="./Group-146.svg" />
 
-      {/* Header and Breadcrumb */}
-      <div className={styles.inner}>
-        <div className={styles.frameParent}>
-          <FrameComponent11111 />
-          <div className={styles.breadcrumb}>/ Бренды</div>
-        </div>
-      </div>
+      {/* Header */}
+      <FrameComponent11111 />
 
       {/* Main Content */}
-      <main className={styles.frameGroup}>
+      <main className={styles.inner}>
+        <div className={styles.breadcrumb}>/ Бренды</div>
+
         <section className={styles.cardsContainer}>
           {/* Card 1: KIT */}
           <div className={styles.card}>
