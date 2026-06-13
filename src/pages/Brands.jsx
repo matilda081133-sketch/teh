@@ -29,13 +29,11 @@ const Brands = () => {
                 <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
               </div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} alt="Drone" src="./brand-drone.png?v=2" />
+                <img className={styles.cardImage} alt="Drone" src="./brand-drone.png?v=3" />
               </div>
               <div className={styles.cardBottom}>
                 <h2 className={styles.cardTitle}>Инженерия без<br />компромиссов</h2>
-                <p className={styles.cardSubtitle}>
-                  Сверхпрочные инженерные наборы для тех, кто готов<br />выйти за рамки обычной детской игрушки
-                </p>
+                <h3 className={styles.cardSubtitle}>Сверхпрочные инженерные наборы для тех, кто готов<br />выйти за рамки обычной детской игрушки</h3>
               </div>
             </div>
 
@@ -46,7 +44,7 @@ const Brands = () => {
                 <img className={styles.cardArrow} alt="Arrow" src="./Group.svg" />
               </div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} alt="CNC Machine" src="./brand-cnc.png?v=2" />
+                <img className={styles.cardImage} alt="CNC Machine" src="./brand-cnc.png?v=3" />
               </div>
               <div className={styles.cardBottom}>
                 <h2 className={styles.cardTitle}>Технологическая<br />независимость</h2>
