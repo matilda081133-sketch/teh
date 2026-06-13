@@ -62,12 +62,12 @@
 .card {
   background: #181818;
   border-radius: var(--br-15);
-  padding: 40px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  height: 618px;
+  height: 520px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -106,7 +106,6 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 520px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
