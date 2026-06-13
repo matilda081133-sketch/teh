@@ -30,13 +30,14 @@
 }
 .frameGroup {
   flex: 1;
-  justify-content: space-between;
-  gap: var(--gap-20);
+  display: flex;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .logoWrapper {
-  width: 14.0625vw;
+  width: 36.2239vw; /* Exactly 695.5px at 1920 viewport */
   flex-direction: column;
+  flex-shrink: 0;
 }
 .logoIcon {
   width: 10.2083vw;
@@ -48,12 +49,22 @@
 .frameContainer {
   display: flex;
   align-items: flex-start;
-  gap: 7.9688vw;
+  gap: 0;
   max-width: 100%;
 }
-.frameDiv,
-.linkGroup,
 .linkParent {
+  width: 18.125vw; /* Exactly 348px gap to next column at 1920 viewport */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.frameDiv {
+  margin-left: auto;
+}
+.frameDiv,
+.linkGroup {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
