@@ -18,7 +18,7 @@
   gap: var(--gap-60);
 }
 .frameGroup {
-  width: 1720px;
+  width: 1525px;
   align-items: flex-end;
   gap: var(--gap-10);
   text-align: left;
@@ -65,12 +65,6 @@
   gap: var(--gap-40);
   max-width: 100%;
   font-size: var(--fs-20);
-}
-.rightContent {
-  width: 830px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 .rd {
   flex: 1;
@@ -149,8 +143,8 @@
 }
 .frameChild {
   width: 100%;
-  max-width: 1720px;
-  margin: 120px auto 100px auto;
+  max-width: 1525px;
+  margin: 0 auto;
   border-radius: var(--br-15);
   overflow: hidden;
   object-fit: cover;

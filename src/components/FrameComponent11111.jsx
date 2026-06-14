@@ -18,7 +18,7 @@ const FrameComponent11111 = ({ className = "" }) => {
   
   const linkItems1 = [
     { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.about'), to: "/about" },
-    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.brands'), to: "/brands" },
+    { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.brands'), to: "/" },
     { status1: "Default", linkAlignSelf: "", linkJustifyContent: "", link: t('header.contacts'), to: "/" },
   ];
 

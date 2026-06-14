@@ -38,10 +38,10 @@
 
 .frameParent {
   width: var(--width-1720);
-  max-width: 1720px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  max-width: 100%;
+  margin-left: 2px;
 }
 
 .breadcrumb {
@@ -68,10 +68,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  aspect-ratio: 849.5 / 520;
-  max-width: 849.5px;
-  max-height: 520px;
-  min-height: 280px;
+  height: 520px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
