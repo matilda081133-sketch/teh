@@ -68,7 +68,8 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  height: 520px;
+  aspect-ratio: 849.5 / 520;
+  min-height: 280px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
