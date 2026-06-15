@@ -11,7 +11,7 @@
 }
 .frameGroup {
   flex-direction: column;
-  gap: 160px;
+  gap: 8.3333vw;
   flex-shrink: 0;
   z-index: 2;
 }
@@ -32,7 +32,7 @@
   font-family: var(--font-onest);
 }
 .parent {
-  width: 1024px;
+  width: 53.3333vw;
   justify-content: space-between;
   gap: var(--gap-20);
   flex-shrink: 0;
@@ -45,21 +45,21 @@
 }
 .div {
   height: var(--height-17);
-  width: 133px;
+  width: 6.9271vw;
 }
 .rd {
-  height: 153px;
+  height: 7.9688vw;
   width: var(--width-328);
   flex-shrink: 0;
   max-width: 100%;
 }
 .rdWrapper {
-  width: 1372px;
+  width: 71.4583vw;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
   max-width: 100%;
-  margin-top: -4px;
+  margin-top: -0.2083vw;
 }
 .mission,
 .rd2,
@@ -67,7 +67,7 @@
   position: relative;
 }
 .rd2 {
-  height: 153px;
+  height: 7.9688vw;
   width: var(--width-328);
   line-height: 120%;
   display: inline-block;
@@ -84,7 +84,7 @@
   gap: var(--gap-40);
 }
 .div2 {
-  width: 133px;
+  width: 6.9271vw;
   height: var(--height-17);
   position: absolute;
   margin: 0 !important;
@@ -121,7 +121,7 @@
   width: 100%;
 }
 .div3 {
-  height: 85px;
+  height: 4.4271vw;
   width: var(--width-328);
   position: relative;
   line-height: 120%;
@@ -149,13 +149,13 @@
   gap: var(--gap-20);
 }
 .cards {
-  height: 480px;
+  height: 25.0000vw;
   align-items: stretch;
   justify-content: center;
 }
 .card {
   flex: 1;
-  height: 480px;
+  height: 25.0000vw;
   border-radius: var(--br-15);
   background-color: var(--Black-lines);
   flex-direction: column;
@@ -171,10 +171,10 @@
   font-family: var(--font-winter-sans-trial);
 }
 .h2 {
-  margin: -10px 0 0 0;
+  margin: -0.5208vw 0 0 0;
   width: auto;
   height: auto;
-  padding: 10px 15px 10px 0;
+  padding: 0.5208vw 0.7813vw 0.5208vw 0;
   position: relative;
   font-size: inherit;
   letter-spacing: -0.02em;
@@ -185,7 +185,7 @@
   background: linear-gradient(180deg, var(--Grey-Dark) 0%, var(--Black-lines) 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 8px transparent;
+  -webkit-text-stroke: 0.4167vw transparent;
   display: inline-block;
   opacity: var(--opacity-0_3);
 }
@@ -194,7 +194,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px;
+  gap: 0.3125vw;
   font-size: var(--fs-24);
   font-family: var(--font-onest);
 }
@@ -231,12 +231,12 @@
   max-width: 100%;
 }
 .div6 {
-  width: 109px;
+  width: 5.6771vw;
   height: var(--height-17);
   position: relative;
   line-height: 120%;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 2.0833vw;
 }
 .teamSection {
   width: 100%;
@@ -248,7 +248,7 @@
 .teamRow {
   width: 100%;
   box-sizing: border-box;
-  padding: 40px 100px 40px 0;
+  padding: 2.0833vw 5.2083vw 2.0833vw 0;
   border-bottom: 1px solid var(--Grey-Dark);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -265,8 +265,8 @@
   border-bottom: none;
 }
 .teamPhoto {
-  width: 280px;
-  height: 320px;
+  width: 14.5833vw;
+  height: 16.6667vw;
   border-radius: var(--br-15);
   object-fit: cover;
   position: absolute;
@@ -274,7 +274,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 0.5208vw 1.5625vw rgba(0,0,0,0.1);
 }
 .teamRowContent {
   width: 50%;
@@ -308,11 +308,11 @@
   font-weight: 500;
 }
 .teamDesc {
-  margin-top: 20px;
+  margin-top: 1.0417vw;
   font-size: var(--fs-14);
   line-height: 120%;
   color: #1e1e22;
-  max-width: 540px;
+  max-width: 28.1250vw;
 }
 .frameWrapper2 {
   border-top: var(--border-1);
@@ -327,18 +327,18 @@
   padding: var(--padding-30);
 }
 .image779Icon {
-  width: 280px;
-  height: 320px;
+  width: 14.5833vw;
+  height: 16.6667vw;
   position: absolute;
   margin: 0 !important;
-  top: 94px;
-  left: 348px;
+  top: 4.8958vw;
+  left: 18.1250vw;
   border-radius: var(--br-15);
   object-fit: cover;
   z-index: 1;
 }
 .frameWrapper4 {
-  height: 1035px;
+  height: 53.9063vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -375,14 +375,14 @@
 }
 @media screen and (max-width: 1400px) {
   .frameParent {
-    gap: 860px;
+    gap: 44.7917vw;
   }
   .frameGroup {
     gap: var(--gap-80);
   }
   .wrapper {
-    padding-left: 347px;
-    padding-right: 348px;
+    padding-left: 18.0729vw;
+    padding-right: 18.1250vw;
     box-sizing: border-box;
   }
   .frameSection,
@@ -394,7 +394,7 @@
 }
 @media screen and (max-width: 925px) {
   .frameParent {
-    gap: 430px;
+    gap: 22.3958vw;
   }
   .frameGroup {
     gap: var(--gap-40);
@@ -409,12 +409,12 @@
     gap: var(--gap-20);
   }
   .b {
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 1.9792vw;
+    line-height: 1.9792vw;
   }
   .wrapper {
-    padding-left: 173px;
-    padding-right: 174px;
+    padding-left: 9.0104vw;
+    padding-right: 9.0625vw;
     box-sizing: border-box;
   }
   .h2 {
@@ -442,14 +442,14 @@
 }
 @media screen and (max-width: 450px) {
   .frameParent {
-    gap: 215px;
+    gap: 11.1979vw;
   }
   .frameGroup {
     gap: var(--gap-20);
   }
   .b {
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 1.5104vw;
+    line-height: 1.5104vw;
   }
   .wrapper {
     padding-left: var(--padding-20);

@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 0 0;
+  padding: 2.0833vw 0 0;
   box-sizing: border-box;
   isolation: isolate;
   font-family: var(--font-onest);
@@ -41,23 +41,23 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin-left: 2px;
+  margin-left: 0.1042vw;
 }
 
 .breadcrumb {
   font-size: var(--fs-14);
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  margin-top: 2.0833vw;
+  margin-bottom: 1.0417vw;
+  margin-left: 1.5625vw;
   text-transform: none;
 }
 
 .cardsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 1.0417vw;
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 6.2500vw;
 }
 
 .card {
@@ -68,34 +68,34 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  height: 520px;
+  height: 27.0833vw;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.2604vw);
 }
 
 .cardTop {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 30px 30px 0 30px;
+  padding: 1.5625vw 1.5625vw 0 1.5625vw;
   z-index: 2;
   position: relative;
 }
 
 .cardLogo {
-  height: 48px;
+  height: 2.5000vw;
   width: auto;
   object-fit: contain;
   object-position: left top;
 }
 
 .cardArrow {
-  width: 24px;
-  height: 24px;
+  width: 1.2500vw;
+  height: 1.2500vw;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
@@ -126,21 +126,21 @@
 .cardBottom {
   z-index: 2;
   margin-top: auto;
-  padding: 0 30px 30px 30px;
+  padding: 0 1.5625vw 1.5625vw 1.5625vw;
   position: relative;
 }
 
 .cardTitle {
-  font-size: 32px;
+  font-size: 1.6667vw;
   font-weight: 800;
-  margin: 0 0 10px 0;
+  margin: 0 0 0.5208vw 0;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
 .cardSubtitle {
-  font-size: 16px;
+  font-size: 0.8333vw;
   margin: 0;
   opacity: 0.8;
   line-height: 1.4;
@@ -148,7 +148,7 @@
 
 @media screen and (max-width: 1024px) {
   .breadcrumb {
-    margin-left: 20px;
+    margin-left: 1.0417vw;
   }
   .cardsContainer {
     grid-template-columns: 1fr;

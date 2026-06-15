@@ -11,6 +11,10 @@ body {
   margin: 0;
   line-height: normal;
   background-color: #080809;
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
 }
 :root {
   /* Common Style Variables */

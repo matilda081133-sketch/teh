@@ -18,7 +18,7 @@
   gap: var(--gap-60);
 }
 .frameGroup {
-  width: 1720px;
+  width: 89.5833vw;
   align-items: flex-end;
   gap: var(--gap-10);
   text-align: left;
@@ -36,12 +36,12 @@
   align-self: stretch;
 }
 .parent {
-  width: 1351px;
+  width: 70.3646vw;
   justify-content: space-between;
   gap: var(--gap-20);
 }
 .textGrid {
-  width: 830px;
+  width: 43.2292vw;
   display: flex;
   align-items: flex-start;
   gap: var(--gap-40);
@@ -51,7 +51,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 0.8333vw;
 }
 .div {
   position: relative;
@@ -59,7 +59,7 @@
   z-index: 1;
 }
 .rdParent {
-  width: 830px;
+  width: 43.2292vw;
   display: flex;
   align-items: flex-start;
   gap: var(--gap-40);
@@ -67,10 +67,10 @@
   font-size: var(--fs-20);
 }
 .rightContent {
-  width: 830px;
+  width: 43.2292vw;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.5625vw;
 }
 .rd {
   flex: 1;
@@ -78,7 +78,7 @@
   line-height: 120%;
   text-transform: uppercase;
   display: inline-block;
-  min-width: 200px;
+  min-width: 10.4167vw;
   z-index: 1;
 }
 .frameContainer,
@@ -87,13 +87,13 @@
   align-items: flex-start;
 }
 .frameContainer {
-  width: 830px;
+  width: 43.2292vw;
   flex-direction: column;
   max-width: 100%;
 }
 .wrapper {
   align-self: stretch;
-  padding: var(--padding-0) 220px var(--padding-0) 348px;
+  padding: var(--padding-0) 11.4583vw var(--padding-0) 18.1250vw;
 }
 .div2 {
   flex: 1;
@@ -109,7 +109,7 @@
   max-width: 100%;
 }
 .iii2Container {
-  width: 284px;
+  width: 14.7917vw;
   position: relative;
   display: inline-block;
   flex-shrink: 0;
@@ -122,7 +122,7 @@
 }
 .p {
   margin-block-start: 0;
-  margin-block-end: 10px;
+  margin-block-end: 0.5208vw;
 }
 .eMailAeshkeevgmailcom {
   margin: 0;
@@ -133,9 +133,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 51px var(--padding-0) var(--padding-0);
+  padding: 2.6563vw var(--padding-0) var(--padding-0);
   box-sizing: border-box;
-  min-width: 313px;
+  min-width: 16.3021vw;
   max-width: 100%;
 }
 .div3,
@@ -149,8 +149,8 @@
 }
 .frameChild {
   width: 100%;
-  max-width: 1720px;
-  margin: 120px auto 100px auto;
+  max-width: 89.5833vw;
+  margin: 6.2500vw auto 5.2083vw auto;
   border-radius: var(--br-15);
   overflow: hidden;
   object-fit: cover;
@@ -167,8 +167,8 @@
     gap: var(--gap-20);
   }
   .wrapper {
-    padding-left: 174px;
-    padding-right: 110px;
+    padding-left: 9.0625vw;
+    padding-right: 5.7292vw;
     box-sizing: border-box;
   }
   .iii23Parent {

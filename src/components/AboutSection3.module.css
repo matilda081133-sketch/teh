@@ -89,7 +89,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: var(--font-winter-sans-trial);
-  -webkit-text-stroke: 8px currentColor;
+  -webkit-text-stroke: 0.4167vw currentColor;
   display: inline-block;
 }
 .frameInner {
@@ -128,7 +128,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  -webkit-text-stroke: 8px currentColor;
+  -webkit-text-stroke: 0.4167vw currentColor;
 }
 .div2 {
   width: 5.5729vw;

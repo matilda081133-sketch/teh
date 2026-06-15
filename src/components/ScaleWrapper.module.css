@@ -1,0 +1,11 @@
+.scaleOuter {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scaleInner {
+  transform-origin: top left;
+  /* width is set inline via JS */
+  /* transform is set inline via JS */
+}

@@ -44,7 +44,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: inherit;
-  -webkit-text-stroke: 8px currentColor;
+  -webkit-text-stroke: 0.4167vw currentColor;
 }
 .div {
   width: 7.8125vw;
@@ -92,7 +92,7 @@
   text-transform: uppercase;
   font-weight: 800;
   font-family: var(--font-winter-sans-trial);
-  -webkit-text-stroke: 8px currentColor;
+  -webkit-text-stroke: 0.4167vw currentColor;
 }
 @media screen and (max-width: 925px) {
   .frameParent {
