@@ -8,6 +8,7 @@ import {
 import Component1 from "./pages/Component1";
 import About from "./pages/About";
 import Brands from "./pages/Brands";
+import Contacts from "./pages/Contacts";
 
 function App() {
   const action = useNavigationType();
@@ -37,6 +38,10 @@ function App() {
         title = "Бренды";
         metaDescription = "Бренды компании";
         break;
+      case "/contacts":
+        title = "ТЕХ - Контакты";
+        metaDescription = "Контакты компании ТЕХ";
+        break;
     }
 
     if (title) {
@@ -58,6 +63,7 @@ function App() {
       <Route path="/" element={<Component1 />} />
       <Route path="/about" element={<About />} />
       <Route path="/brands" element={<Brands />} />
+      <Route path="/contacts" element={<Contacts />} />
     </Routes>
   );
 }
