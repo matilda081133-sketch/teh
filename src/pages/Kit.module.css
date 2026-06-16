@@ -1,0 +1,340 @@
+/* ===== Page Root ===== */
+.page {
+  width: 100%;
+  position: relative;
+  background-color: #080809;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.0833vw 0 0;
+  box-sizing: border-box;
+  isolation: isolate;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: var(--font-onest);
+  color: var(--Grey);
+}
+
+.bgGrid {
+  width: 100vw;
+  height: 470.3125vw;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+  z-index: 0;
+}
+
+.content {
+  width: 89.5833vw;
+  position: relative;
+  z-index: 2;
+}
+
+/* ===== Divider after header ===== */
+.dividerLine {
+  width: 89.5833vw;
+  height: 1px;
+  background: var(--Grey);
+  opacity: 0.3;
+  margin-top: 0;
+}
+
+/* ===== HERO ===== */
+/* Figma: title @y=234, image @y=232 (overlaps!), subtitle @y=879, desc @y=941 */
+.hero {
+  position: relative;
+  width: 100%;
+  margin-top: 4.1667vw;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: 6.6667vw;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 84%;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+/* Image: @(160,232) 1580x889 → relative to content left (100): x=60, so margin-left ~3.125vw */
+.heroImage {
+  width: 82.2917vw;
+  height: 46.3021vw;
+  border-radius: 0.7813vw;
+  object-fit: cover;
+  display: block;
+  margin-left: 3.125vw;
+  margin-top: -1.5625vw;
+  position: relative;
+  z-index: 1;
+}
+
+/* Subtitle + desc: @y=879 and @y=941 → gap from image bottom (232+889=1121) vs 879 = overlaps with image */
+/* Actually y=879 relative to frame top. Image ends at y=232+889=1121. So subtitle is ABOVE image end. */
+/* Let's position them after the image */
+.heroBottom {
+  margin-top: 2.0833vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5208vw;
+}
+
+.heroSubtitle {
+  font-size: 1.25vw;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.heroDesc {
+  font-size: 0.7292vw;
+  line-height: 140%;
+  max-width: 17.0833vw;
+}
+
+/* ===== FEATURES (Group 361) ===== */
+/* Figma: @(100,1159) 1720x639 */
+.features {
+  margin-top: 3.125vw;
+  width: 100%;
+}
+
+/* Big text: @(796,1159) 669x178 → right-aligned */
+.featuresBigText {
+  margin-left: 36.25vw;
+  max-width: 34.8438vw;
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: lowercase;
+}
+
+/* Cards row: @(100,1478) 1720x320, gap:20 */
+.cardsRow {
+  display: flex;
+  gap: 1.0417vw;
+  margin-top: 2.0833vw;
+}
+
+.card {
+  width: 29.1667vw;
+  height: 16.6667vw;
+  padding: 1.5625vw;
+  border-radius: 0.7813vw;
+  background-color: #272727;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardNumber {
+  font-size: 6.6667vw;
+  font-weight: 800;
+  opacity: 0.3;
+  line-height: 72%;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8333vw;
+}
+
+.cardTitle {
+  font-size: 1.25vw;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.cardDesc {
+  font-size: 0.7292vw;
+  line-height: 140%;
+}
+
+/* Small text below cards: @(795,1367) 299x51 */
+.featuresSmallText {
+  margin-top: 1.0417vw;
+  margin-left: 36.25vw;
+  font-size: 0.7292vw;
+  line-height: 140%;
+  max-width: 15.5729vw;
+}
+
+/* ===== INNOVATION SECTION ===== */
+/* Label: @(448,1963), Big text: @(796,1958), Image @(-526,2155) */
+.innovation {
+  margin-top: 5.2083vw;
+  width: 100%;
+}
+
+.innovationHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.0833vw;
+}
+
+.innovationLabel {
+  flex-shrink: 0;
+  width: 17.0833vw;
+  font-size: 1.25vw;
+  font-weight: 700;
+  line-height: 120%;
+  margin-left: 18.1250vw;
+}
+
+.innovationBigText {
+  flex: 1;
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+/* Innovation image (copter): @(-526,2155) 1576x887 → extends left of frame! */
+.innovationImage {
+  width: 82.0833vw;
+  height: 46.1979vw;
+  border-radius: 0.7813vw;
+  object-fit: cover;
+  display: block;
+  margin-top: 2.0833vw;
+}
+
+/* ===== SPECS GRID ===== */
+/* 3 columns x 2 rows, each cell 308px wide with border lines */
+/* Positioned at right side: columns start at x=796, 1144, 1492 (relative to frame) */
+.specsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 16.0417vw);
+  justify-content: flex-end;
+  margin-top: 2.0833vw;
+  margin-right: 0;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.specItem {
+  width: 16.0417vw;
+  padding: 1.0417vw 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4.4271vw;
+  border-right: 1px solid rgba(217, 216, 216, 0.5);
+  border-bottom: 1px solid rgba(217, 216, 216, 0.5);
+  box-sizing: border-box;
+  padding-left: 0.5208vw;
+}
+
+.specItem:nth-child(3n) {
+  border-right: none;
+}
+
+.specItem:nth-child(n+4) {
+  border-bottom: none;
+}
+
+.specBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2604vw 0.625vw;
+  border-radius: 0.7292vw;
+  border: 1px solid var(--Grey);
+  font-size: 0.7292vw;
+  width: fit-content;
+}
+
+.specTitle {
+  font-size: 1.0417vw;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.specDesc {
+  font-size: 0.7292vw;
+  line-height: 140%;
+}
+
+/* ===== PRODUCT IMAGE ===== */
+/* @(476,3260) 968x582 → centered */
+.productSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.2083vw;
+}
+
+.productImage {
+  width: 50.4167vw;
+  height: 30.3125vw;
+  object-fit: cover;
+  border-radius: 0.7813vw;
+}
+
+/* ===== TARGET AUDIENCE (Group 362) ===== */
+/* @(100,3612) 1720x676 */
+.audience {
+  margin-top: 5.2083vw;
+  margin-bottom: 5.2083vw;
+  width: 100%;
+}
+
+/* Title: @(367,3612) 1187x322 → not at left edge! offset 267px from content */
+.audienceTitle {
+  margin: 0;
+  margin-left: 13.9063vw;
+  font-size: 6.6667vw;
+  font-weight: 800;
+  line-height: 84%;
+  text-transform: uppercase;
+}
+
+/* 3 audience cards staggered layout (NOT a simple row in Figma!) */
+/* Card 1: @(100,3914) 560x254 */
+/* Card 2 (B2B): @(681,3974) 560x254 → offset 60px lower */
+/* Card 3: @(1260,4034) 560x254 → offset 120px lower */
+.audienceCards {
+  display: flex;
+  gap: 1.0417vw;
+  align-items: flex-start;
+  margin-top: 2.0833vw;
+}
+
+.audienceCard {
+  width: 29.1667vw;
+  min-height: 13.2292vw;
+  background-color: #272727;
+  border-radius: 0.7813vw;
+  padding: 1.5625vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+/* Staggered: each card 60px (3.125vw) lower than previous */
+.audienceCard:nth-child(2) {
+  margin-top: 3.125vw;
+}
+
+.audienceCard:nth-child(3) {
+  margin-top: 6.25vw;
+}
+
+.audienceCardTitle {
+  font-size: 2.5vw;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.audienceCardDesc {
+  font-size: 0.625vw;
+  line-height: 160%;
+  margin-top: auto;
+  padding-top: 1.5625vw;
+}

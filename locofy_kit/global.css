@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --Black:
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), #1e1e22;
+  --Black-lines: #272727;
+  --color-gainsboro-100: rgba(217, 216, 216, 0.3);
+  --Grey: #d9d8d8;
+  --Grey-Dark: #b1b1b1;
+
+  /* Gap */
+  --gap-4: 4px;
+  --gap-5: 5px;
+  --gap-8: 8px;
+  --gap-15: 15px;
+  --gap-19: 19px;
+  --gap-20: 20px;
+  --gap-40: 40px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-1: 1px;
+  --padding-5: 5px;
+  --padding-12: 12px;
+  --padding-20: 20px;
+  --padding-30: 30px;
+
+  /* BorderRadius */
+  --br-14: 14px;
+  --br-15: 15px;
+
+  /* Font */
+  --font-onest: Onest;
+  --font-winter-sans-trial: Winter Sans Trial;
+
+  /* FontSize */
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-29: 29px;
+  --fs-32: 32px;
+  --fs-38: 38px;
+  --fs-48: 48px;
+  --fs-51: 51px;
+  --fs-128: 128px;
+
+  /* Borders */
+  --border-1: 1px solid var(--Grey);
+  --border-11: 1px solid var(--Grey-Dark);
+  --border-12: 1px solid var(--Grey-Dark);
+
+  /* Gradients */
+  --gradient-1: linear-gradient(180deg, var(--Grey-Dark), var(--Black-lines));
+
+  /* WidthHeights */
+  --height-1: 1px;
+  --height-14: 14px;
+  --height-18: 18px;
+  --height-28: 28px;
+  --height-80: 80px;
+  --height-220: 220px;
+  --height-240: 240px;
+  --min-w-420: 420px;
+  --width-1: 1px;
+  --width-80: 80px;
+  --width-1720: 1720px;
+
+  /* LineHeights */
+  --lh-19: 19px;
+  --lh-23: 23px;
+  --lh-29: 29px;
+  --lh-38: 38px;
+  --lh-46: 46px;
+  --lh-69: 69px;
+
+  /* LetterSpacings */
+  --ls--0_02: -0.02;
+  --ls--0_03: -0.03;
+
+  /* Opacities */
+  --opacity-0_3: 0.3;
+  --opacity-0_5: 0.5;
+}
