@@ -408,7 +408,8 @@
 
 .tabImage {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  top: auto;
   left: 14.0104vw;
   height: 14.5833vw;
   width: 8.0729vw;
