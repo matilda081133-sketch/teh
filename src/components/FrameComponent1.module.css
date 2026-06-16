@@ -146,16 +146,15 @@
   }
 }
 
-.lineParentExpanded {
-  height: 14.5833vw !important;
-}
 .tabImage {
   position: absolute;
   top: 0;
   left: 14.0104vw;
-  height: 100%;
-  width: auto;
-  max-width: 10vw;
-  object-fit: contain;
+  height: 14.5833vw;
+  width: 8.0729vw;
+  object-fit: cover;
   z-index: 2;
+}
+.lineParent {
+  overflow: visible;
 }
