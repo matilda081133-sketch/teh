@@ -11,7 +11,7 @@ const FrameComponent1 = ({ className = "", prop, prop1, prop2, h1Width, onClick,
 
   return (
     <section
-      className={[styles.lineParent, isActive ? styles.lineParentExpanded : "", className].join(" ")}
+      className={[styles.lineParent, className].join(" ")}
       onClick={onClick}
       style={onClick ? { cursor: "pointer" } : undefined}
     >

@@ -64,7 +64,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
 
         {/* 02 - 3D принтеры */}
         <section
-          className={`${styles.lineParent} ${activeTab === 1 ? styles.lineParentExpanded : ""}`}
+          className={styles.lineParent}
           onClick={() => handleTabClick(1)}
           style={{ cursor: "pointer" }}
         >
@@ -84,7 +84,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
 
         {/* 03 - Инжекционное литье */}
         <section
-          className={`${styles.lineParent} ${activeTab === 2 ? styles.lineParentExpanded : ""}`}
+          className={styles.lineParent}
           onClick={() => handleTabClick(2)}
           style={{ cursor: "pointer" }}
         >
@@ -114,7 +114,7 @@ const FrameComponent1111111 = ({ className = "" }) => {
 
         {/* 05 - Токарно-фрезерные */}
         <section
-          className={`${styles.lineParent} ${activeTab === 4 ? styles.lineParentExpanded : ""}`}
+          className={styles.lineParent}
           onClick={() => handleTabClick(4)}
           style={{ cursor: "pointer" }}
         >
