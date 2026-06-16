@@ -316,10 +316,11 @@
 }
 .frameWrapper3 {
   height: var(--height-200);
-  justify-content: center;
-  padding: var(--padding-0) var(--padding-20) var(--padding-0) 1.0938vw;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-0);
   box-sizing: border-box;
   max-width: 100%;
+  align-self: stretch;
   text-align: left;
   font-size: var(--fs-14);
   color: var(--Grey);
@@ -330,7 +331,7 @@
   gap: var(--gap-20);
 }
 .frameParent6 {
-  width: 53.3854vw;
+  flex: 1;
   max-width: 100%;
 }
 .frameParent7 {
