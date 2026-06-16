@@ -9,6 +9,7 @@ import Component1 from "./pages/Component1";
 import About from "./pages/About";
 import Brands from "./pages/Brands";
 import Contacts from "./pages/Contacts";
+import Kit from "./pages/Kit";
 
 function App() {
   const action = useNavigationType();
@@ -42,6 +43,10 @@ function App() {
         title = "ТЕХ - Контакты";
         metaDescription = "Контакты компании ТЕХ";
         break;
+      case "/kit":
+        title = "K1T - Инженерия без компромиссов";
+        metaDescription = "Бренд K1T — инженерные наборы";
+        break;
     }
 
     if (title) {
@@ -64,6 +69,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/brands" element={<Brands />} />
       <Route path="/contacts" element={<Contacts />} />
+      <Route path="/kit" element={<Kit />} />
     </Routes>
   );
 }
