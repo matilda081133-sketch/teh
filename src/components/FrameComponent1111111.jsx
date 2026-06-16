@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Component2 from "./Component2";
+import FrameComponent1 from "./FrameComponent1";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent1111111.module.css";
 import { useTranslation } from "react-i18next";
@@ -101,25 +102,15 @@ const FrameComponent1111111 = ({ className = "" }) => {
           </div>
         </section>
 
-        {/* 04 - Фрезерные ЧПУ */}
-        <section
-          className={`${styles.lineParent} ${activeTab === 3 ? styles.lineParentExpanded : ""}`}
+        {/* 04 - Фрезерные ЧПУ (через FrameComponent1) */}
+        <FrameComponent1
+          prop="04"
+          prop1="[ 14 ]"
+          prop2={t('catalog.milling')}
           onClick={() => handleTabClick(3)}
-          style={{ cursor: "pointer" }}
-        >
-          {activeTab === 3 && (
-            <img className={styles.tabImage} src={CATEGORY_IMAGES[3]} alt="" />
-          )}
-          <div className={styles.frameItem} />
-          <div className={styles.frameDiv}>
-            <h2 className={styles.h22}>04</h2>
-            <div className={styles.parent2}>
-              <div className={styles.div3}>[ 14 ]</div>
-              <h2 className={styles.h25}>{t('catalog.milling')}</h2>
-            </div>
-            <img className={styles.component29Icon} alt="" src="./Component-32@2x.png" />
-          </div>
-        </section>
+          isActive={activeTab === 3}
+          activeImage={CATEGORY_IMAGES[3]}
+        />
 
         {/* 05 - Токарно-фрезерные */}
         <section
@@ -141,28 +132,15 @@ const FrameComponent1111111 = ({ className = "" }) => {
           </div>
         </section>
 
-        {/* 06 - Режущий инструмент */}
-        <section
-          className={`${styles.lineParent} ${activeTab === 5 ? styles.lineParentExpanded : ""}`}
+        {/* 06 - Режущий инструмент (через FrameComponent1) */}
+        <FrameComponent1
+          prop="06"
+          prop1="[ 314 ]"
+          prop2={<><span style={{ whiteSpace: "nowrap" }}>{t('catalog.tools1')}</span><br />{t('catalog.tools2')}</>}
           onClick={() => handleTabClick(5)}
-          style={{ cursor: "pointer" }}
-        >
-          {activeTab === 5 && (
-            <img className={styles.tabImage} src={CATEGORY_IMAGES[5]} alt="" />
-          )}
-          <div className={styles.frameItem} />
-          <div className={styles.frameDiv}>
-            <h2 className={styles.h22}>06</h2>
-            <div className={styles.parent2}>
-              <div className={styles.div3}>[ 314 ]</div>
-              <h2 className={styles.h25}>
-                <span style={{ whiteSpace: "nowrap" }}>{t('catalog.tools1')}</span><br />{t('catalog.tools2')}
-              </h2>
-            </div>
-            <img className={styles.component29Icon} alt="" src="./Component-32@2x.png" />
-          </div>
-        </section>
-
+          isActive={activeTab === 5}
+          activeImage={CATEGORY_IMAGES[5]}
+        />
       </div>
     </section>
   );
