@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import PropTypes from "prop-types";
 import styles from "./FrameComponent1.module.css";
 
-const FrameComponent1 = ({ className = "", prop, prop1, prop2, h1Width, onClick, isActive, activeImage }) => {
+const FrameComponent1 = ({ className = "", prop, prop1, prop2, h1Width }) => {
   const h1Style = useMemo(() => {
     return {
       width: h1Width,
@@ -10,14 +10,7 @@ const FrameComponent1 = ({ className = "", prop, prop1, prop2, h1Width, onClick,
   }, [h1Width]);
 
   return (
-    <section
-      className={[styles.lineParent, className].join(" ")}
-      onClick={onClick}
-      style={onClick ? { cursor: "pointer" } : undefined}
-    >
-      {isActive && activeImage && (
-        <img className={styles.tabImage} src={activeImage} alt="" />
-      )}
+    <section className={[styles.lineParent, className].join(" ")}>
       <div className={styles.frameChild} />
       <div className={styles.parent}>
         <h2 className={styles.h2}>{prop}</h2>
@@ -43,10 +36,7 @@ FrameComponent1.propTypes = {
   className: PropTypes.string,
   prop: PropTypes.string,
   prop1: PropTypes.string,
-  prop2: PropTypes.any,
-  onClick: PropTypes.func,
-  isActive: PropTypes.bool,
-  activeImage: PropTypes.string,
+  prop2: PropTypes.string,
 
   /** Style props */
   h1Width: PropTypes.string,

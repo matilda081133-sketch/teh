@@ -145,17 +145,3 @@
     line-height: var(--lh-29);
   }
 }
-
-.tabImage {
-  position: absolute;
-  bottom: 0;
-  top: auto;
-  left: 14.0104vw;
-  height: 14.5833vw;
-  width: 8.0729vw;
-  object-fit: cover;
-  z-index: 2;
-}
-.lineParent {
-  overflow: visible;
-}

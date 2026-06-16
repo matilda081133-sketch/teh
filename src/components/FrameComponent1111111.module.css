@@ -29,26 +29,11 @@
   color: var(--Grey);
   font-family: var(--font-onest);
 }
-.frameGroupCollapsed {
-  align-self: stretch;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--fs-14);
-  color: var(--Grey);
-  font-family: var(--font-onest);
-}
 .width388Height800Llts105ucParent {
   align-self: stretch;
   height: 14.5833vw;
   position: relative;
   max-width: 100%;
-}
-.width388Height800Llts105ucParentCollapsed {
-  align-self: stretch;
-  height: var(--height-65);
-  position: relative;
-  max-width: 100%;
-  overflow: visible;
 }
 .width388Height800Llts105ucIcon {
   position: absolute;
@@ -404,18 +389,4 @@
     padding-right: var(--padding-20);
     box-sizing: border-box;
   }
-}
-
-.tabImage {
-  position: absolute;
-  bottom: 0;
-  top: auto;
-  left: 14.0104vw;
-  height: 14.5833vw;
-  width: 8.0729vw;
-  object-fit: cover;
-  z-index: 2;
-}
-.lineParent {
-  overflow: visible;
 }
