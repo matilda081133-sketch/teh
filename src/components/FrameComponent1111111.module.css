@@ -392,18 +392,21 @@
 }
 
 .tabImageWrapper {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 14.0104vw;
+  height: 100%;
+  z-index: 2;
   display: flex;
-  justify-content: center;
-  padding: 1.0417vw 0;
+  align-items: center;
 }
 .tabImage {
-  width: 20.2083vw;
-  height: auto;
-  max-height: 24.4792vw;
+  height: 100%;
+  width: auto;
+  max-width: 10vw;
   object-fit: contain;
-  border-radius: 0.5208vw;
 }
 .lineParent {
   transition: all 0.3s ease;
+  overflow: visible;
 }
