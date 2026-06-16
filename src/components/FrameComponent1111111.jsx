@@ -6,6 +6,7 @@ import styles from "./FrameComponent1111111.module.css";
 import { useTranslation } from "react-i18next";
 
 const CATEGORY_IMAGES = {
+  0: "./width-388-height-800-llts105ucil4ierkr0vk39yy82qepk87-2@2x.png",
   1: "./mission-3dprinters.png",
   2: "./mission-injection.png",
   3: "./mission-cnc.png",
@@ -24,53 +25,46 @@ const FrameComponent1111111 = ({ className = "" }) => {
     { text: t('catalog.item4') },
   ];
 
-  const handleTabClick = (index) => {
-    setActiveTab(index);
-  };
-
   return (
     <section className={[styles.frameWrapper, className].join(" ")}>
       <div className={styles.frameParent}>
+
         {/* 01 - Роботы-манипуляторы */}
-        <section className={styles.frameGroup} onClick={() => handleTabClick(0)} style={{ cursor: "pointer" }}>
-          <div className={styles.width388Height800Llts105ucParent}>
+        <section
+          className={activeTab === 0 ? styles.frameGroup : styles.frameGroupCollapsed}
+          onClick={() => setActiveTab(0)}
+          style={{ cursor: "pointer" }}
+        >
+          <div className={activeTab === 0 ? styles.width388Height800Llts105ucParent : styles.width388Height800Llts105ucParentCollapsed}>
             {activeTab === 0 && (
               <img
                 className={styles.width388Height800Llts105ucIcon}
                 loading="lazy"
                 alt=""
-                src="./width-388-height-800-llts105ucil4ierkr0vk39yy82qepk87-2@2x.png"
+                src={CATEGORY_IMAGES[0]}
               />
             )}
-            <img
-              className={styles.component28Icon}
-              alt=""
-              src="./Component-32@2x.png"
-            />
+            <img className={styles.component28Icon} alt="" src="./Component-32@2x.png" />
             <h2 className={styles.h2}>01</h2>
             <div className={styles.div}>[ 78 ]</div>
             <h1 className={styles.h1}>{t('catalog.manipulators')}</h1>
-            <div className={styles.frameContainer}>
-              <div className={styles.parent}>
-                {component2Items.map((item, index) => (
-                  <Component2 key={index} text={item.text} />
-                ))}
+            {activeTab === 0 && (
+              <div className={styles.frameContainer}>
+                <div className={styles.parent}>
+                  {component2Items.map((item, index) => (
+                    <Component2 key={index} text={item.text} />
+                  ))}
+                </div>
+                <div className={styles.div2}>{t('catalog.andMore')}</div>
               </div>
-              <div className={styles.div2}>{t('catalog.andMore')}</div>
-            </div>
+            )}
           </div>
           <div className={styles.frameChild} />
         </section>
 
         {/* 02 - 3D принтеры */}
-        <section
-          className={styles.lineParent}
-          onClick={() => handleTabClick(1)}
-          style={{ cursor: "pointer" }}
-        >
-          {activeTab === 1 && (
-            <img className={styles.tabImage} src={CATEGORY_IMAGES[1]} alt="" />
-          )}
+        <section className={styles.lineParent} onClick={() => setActiveTab(1)} style={{ cursor: "pointer" }}>
+          {activeTab === 1 && <img className={styles.tabImage} src={CATEGORY_IMAGES[1]} alt="" />}
           <div className={styles.frameItem} />
           <div className={styles.group}>
             <h2 className={styles.h22}>02</h2>
@@ -83,14 +77,8 @@ const FrameComponent1111111 = ({ className = "" }) => {
         </section>
 
         {/* 03 - Инжекционное литье */}
-        <section
-          className={styles.lineParent}
-          onClick={() => handleTabClick(2)}
-          style={{ cursor: "pointer" }}
-        >
-          {activeTab === 2 && (
-            <img className={styles.tabImage} src={CATEGORY_IMAGES[2]} alt="" />
-          )}
+        <section className={styles.lineParent} onClick={() => setActiveTab(2)} style={{ cursor: "pointer" }}>
+          {activeTab === 2 && <img className={styles.tabImage} src={CATEGORY_IMAGES[2]} alt="" />}
           <div className={styles.frameItem} />
           <div className={styles.frameDiv}>
             <h2 className={styles.h22}>03</h2>
@@ -102,25 +90,19 @@ const FrameComponent1111111 = ({ className = "" }) => {
           </div>
         </section>
 
-        {/* 04 - Фрезерные ЧПУ (через FrameComponent1) */}
+        {/* 04 - Фрезерные ЧПУ */}
         <FrameComponent1
           prop="04"
           prop1="[ 14 ]"
           prop2={t('catalog.milling')}
-          onClick={() => handleTabClick(3)}
+          onClick={() => setActiveTab(3)}
           isActive={activeTab === 3}
           activeImage={CATEGORY_IMAGES[3]}
         />
 
         {/* 05 - Токарно-фрезерные */}
-        <section
-          className={styles.lineParent}
-          onClick={() => handleTabClick(4)}
-          style={{ cursor: "pointer" }}
-        >
-          {activeTab === 4 && (
-            <img className={styles.tabImage} src={CATEGORY_IMAGES[4]} alt="" />
-          )}
+        <section className={styles.lineParent} onClick={() => setActiveTab(4)} style={{ cursor: "pointer" }}>
+          {activeTab === 4 && <img className={styles.tabImage} src={CATEGORY_IMAGES[4]} alt="" />}
           <div className={styles.frameItem} />
           <div className={styles.frameDiv}>
             <h2 className={styles.h22}>05</h2>
@@ -132,15 +114,16 @@ const FrameComponent1111111 = ({ className = "" }) => {
           </div>
         </section>
 
-        {/* 06 - Режущий инструмент (через FrameComponent1) */}
+        {/* 06 - Режущий инструмент */}
         <FrameComponent1
           prop="06"
           prop1="[ 314 ]"
           prop2={<><span style={{ whiteSpace: "nowrap" }}>{t('catalog.tools1')}</span><br />{t('catalog.tools2')}</>}
-          onClick={() => handleTabClick(5)}
+          onClick={() => setActiveTab(5)}
           isActive={activeTab === 5}
           activeImage={CATEGORY_IMAGES[5]}
         />
+
       </div>
     </section>
   );
