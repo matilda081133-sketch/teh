@@ -390,3 +390,20 @@
     box-sizing: border-box;
   }
 }
+
+.tabImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.0417vw 0;
+}
+.tabImage {
+  width: 20.2083vw;
+  height: auto;
+  max-height: 24.4792vw;
+  object-fit: contain;
+  border-radius: 0.5208vw;
+}
+.lineParent {
+  transition: all 0.3s ease;
+}
