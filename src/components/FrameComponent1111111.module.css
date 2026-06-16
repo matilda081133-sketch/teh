@@ -391,22 +391,20 @@
   }
 }
 
-.tabImageWrapper {
+.lineParentExpanded {
+  height: 14.5833vw !important;
+}
+.tabImage {
   position: absolute;
   top: 0;
   left: 14.0104vw;
   height: 100%;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-}
-.tabImage {
-  height: 100%;
   width: auto;
   max-width: 10vw;
   object-fit: contain;
+  z-index: 2;
 }
 .lineParent {
-  transition: all 0.3s ease;
+  transition: height 0.3s ease;
   overflow: visible;
 }
